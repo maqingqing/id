@@ -1,0 +1,5 @@
+name = new user register page
+description = Provides a new register page.
+core = 7.x
+package = OPENTHOS
+files[] = user_register.module

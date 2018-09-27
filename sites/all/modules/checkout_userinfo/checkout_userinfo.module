@@ -1,0 +1,72 @@
+<?php
+
+//define('DRUPAL_ROOT',getcwd());
+require_once DRUPAL_ROOT . '/includes/password.inc';
+//require_once DRUPAL_ROOT . '/includes/common.inc'
+
+
+function checkout_userinfo_help($path, $arg) {
+  switch ($path) {
+    case "admin/help#checkout_userinfo":
+      return '<p>验证用户信息！</p>';
+      break;
+  }
+}
+ 
+function checkout_userinfo_menu(){
+	$items[]=array();
+	$items['check/userinfo']=array(
+	'title' => 'Access Denied',
+        'access callback' => true ,
+	'page callback' => 'mycheck',
+);
+
+return $items;
+}
+/**
+* code的表示:
+* 1000代表用户存在且密码正确
+* 1001代表用户存在但是密码不正确
+* 1002代表用户不存在
+*
+*/
+function mycheck(){
+
+	$name=$_POST['id'];
+	$pass=$_POST['passwd'];
+//	$mds=user_hash_password('admin',0);
+//	echo $mds;
+//	echo '返回的数据'.$name;
+//	echo '返回的数据'.$pass;
+//	$query=db_select('users','u')->fields('u',array('uid','name','pass'));
+//	$query->condition('name','admin');
+//	$result=$query->execute();
+//	foreach($result as $record){
+//		$id=$record->uid;
+//		$account=user_load($id);
+//		echo $account->pass;
+//		$tag=user_check_password('admin', $account);	
+//		echo $tag;
+//	}
+
+	if(valid_email_address($name)){
+		$account=user_load_by_mail($name);
+	}else{
+		$account=user_load_by_name($name);
+	}
+
+//	echo $account->pass;	
+	if($account){
+		$tag=user_check_password($pass,$account);
+		if($tag){
+		//	echo "pass is ok !";
+			drupal_json_output(array('code'=>'1000'));
+		}else{
+		//	echo "pass is error !";
+			drupal_json_output(array('code'=>'1001'));
+		}
+	}else{
+	//	echo "false";
+		drupal_json_output(array('code'=>'1002'));
+	}
+}

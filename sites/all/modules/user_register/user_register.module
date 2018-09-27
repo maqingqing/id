@@ -1,0 +1,57 @@
+<?php
+
+//define('DRUPAL_ROOT',getcwd());
+require_once DRUPAL_ROOT . '/includes/password.inc';
+//require_once DRUPAL_ROOT . '/modules/user/user.module'
+
+function user_register_menu(){
+	$items[]=array();
+	$items['u/register']=array(
+	'title' => 'User Register',
+        'access callback' => true ,
+	'page callback' => 'register',
+	);
+
+	return $items;
+}
+/**
+*新用户注册
+*/
+function register(){
+
+	$name=$_POST['id'];
+	$email=$_POST['email'];
+	$pass=$_POST['passwd'];
+
+    //echo "$name,$email,$pass\n";
+
+	if($name=="" || $email=="" || $pass==""){
+		echo "字段不可为空";
+	}else if(valid_email_address($name)){
+		echo "ID格式错误";
+	}else if(!valid_email_address($email)){
+		echo "email格式错误";
+	}else if(user_load_by_name($name)){
+		echo "ID已存在";
+	}else if(user_load_by_mail($email)){
+		echo "email已存在";
+	}else{
+		$edit=array(
+				'name'=>$name,
+				'pass'=>$pass,		
+				'mail'=>$email,
+				'init'=>$name,
+				'status'=>1
+			   );
+
+		if(user_save(null, $edit)){
+			// drupal_json_output(array('code'=>'1004'));//1004注册成功
+			echo "注册成功";
+		}else{
+			//	drupal_json_output(array('code'=>'1005'));//1005注册失败
+			echo "注册失败";
+		}
+
+	}
+}
+

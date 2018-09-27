@@ -1,0 +1,1595 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+$enabledFields	file/file.js	/^    var $enabledFields = [];$/;"	v
+$fieldsToTemporarilyDisable	file/file.js	/^    var $fieldsToTemporarilyDisable = $('div.form-managed-file input.form-file').not($enabledFields).not(':disabled');$/;"	v
+$progressId	file/file.js	/^    var $progressId = $(clickedButton).closest('div.form-managed-file').find('input.file-progress');$/;"	v
+DRUPAL_ROOT	simpletest/tests/http.php	/^define('DRUPAL_ROOT', getcwd());$/;"	d
+DRUPAL_ROOT	simpletest/tests/https.php	/^define('DRUPAL_ROOT', getcwd());$/;"	d
+DRUPAL_ROOT	statistics/statistics.php	/^define('DRUPAL_ROOT', substr($_SERVER['SCRIPT_FILENAME'], 0, strpos($_SERVER['SCRIPT_FILENAME'], '\/modules\/statistics\/statistics.php')));$/;"	d
+Drupal.behaviors.blockDrag.attach	block/block.js	/^  attach: function (context, settings) {$/;"	m
+Drupal.behaviors.blockDrag.attach.checkEmptyRegions	block/block.js	/^    var checkEmptyRegions = function (table, rowObject) {$/;"	f
+Drupal.behaviors.cleanURLsSettingsCheck.attach	system/system.js	/^  attach: function (context, settings) {$/;"	m
+Drupal.behaviors.contextualLinks.attach	contextual/contextual.js	/^  attach: function (context) {$/;"	m
+Drupal.behaviors.copyFieldValue.attach	system/system.js	/^  attach: function (context, settings) {$/;"	m
+Drupal.behaviors.dateTime.attach	system/system.js	/^  attach: function (context, settings) {$/;"	m
+Drupal.behaviors.fieldUIDisplayOverview.attach	field_ui/field_ui.js	/^  attach: function (context, settings) {$/;"	m
+Drupal.behaviors.fieldUserRegistration.attach	user/user.js	/^  attach: function (context, settings) {$/;"	m
+Drupal.behaviors.fileButtons.attach	file/file.js	/^  attach: function (context) {$/;"	m
+Drupal.behaviors.fileButtons.detach	file/file.js	/^  detach: function (context) {$/;"	m
+Drupal.behaviors.filePreviewLinks.attach	file/file.js	/^  attach: function (context) {$/;"	m
+Drupal.behaviors.filePreviewLinks.detach	file/file.js	/^  detach: function (context){$/;"	m
+Drupal.behaviors.menuLinkAutomaticTitle.attach	menu/menu.js	/^  attach: function (context) {$/;"	m
+Drupal.behaviors.newSet.attach	shortcut/shortcut.admin.js	/^  attach: function (context, settings) {$/;"	m
+Drupal.behaviors.newSet.attach.selectDefault	shortcut/shortcut.admin.js	/^    var selectDefault = function() {$/;"	f
+Drupal.behaviors.pageCache.attach	system/system.js	/^  attach: function (context, settings) {$/;"	m
+Drupal.behaviors.simpleTestSelectAll.attach	simpletest/simpletest.js	/^  attach: function (context, settings) {$/;"	m
+Drupal.behaviors.toolbar.attach	toolbar/toolbar.js	/^  attach: function(context) {$/;"	m
+Drupal.cleanURLsInstallCheck	system/system.js	/^Drupal.cleanURLsInstallCheck = function () {$/;"	f
+Drupal.contextualLinks.mouseleave	contextual/contextual.js	/^Drupal.contextualLinks.mouseleave = function () {$/;"	f
+Drupal.evaluatePasswordStrength	user/user.js	/^Drupal.evaluatePasswordStrength = function (password, translate) {$/;"	f
+Drupal.fieldUIDisplayOverview.field	field_ui/field_ui.js	/^Drupal.fieldUIDisplayOverview.field = function (row, data) {$/;"	c
+Drupal.fieldUIDisplayOverview.field.getRegion	field_ui/field_ui.js	/^  getRegion: function () {$/;"	m
+Drupal.fieldUIDisplayOverview.field.regionChange	field_ui/field_ui.js	/^  regionChange: function (region) {$/;"	m
+Drupal.fieldUIFieldOverview.attachUpdateSelects	field_ui/field_ui.js	/^  attachUpdateSelects: function(table, settings) {$/;"	m
+Drupal.fieldUIOverview.AJAXRefreshRows	field_ui/field_ui.js	/^  AJAXRefreshRows: function (rows) {$/;"	m
+Drupal.fieldUIOverview.attach	field_ui/field_ui.js	/^  attach: function (table, rowsData, rowHandlers) {$/;"	m
+Drupal.fieldUIOverview.onChange	field_ui/field_ui.js	/^  onChange: function () {$/;"	m
+Drupal.fieldUIOverview.onDrop	field_ui/field_ui.js	/^  onDrop: function () {$/;"	m
+Drupal.fieldUIOverview.onSwap	field_ui/field_ui.js	/^  onSwap: function (draggedRow) {$/;"	m
+Drupal.menu_update_parent_list	menu/menu.admin.js	/^Drupal.menu_update_parent_list = function () {$/;"	f
+Drupal.overlay	overlay/overlay-parent.js	/^Drupal.overlay.prototype = {};$/;"	c
+Drupal.overlay._recordTabindex	overlay/overlay-parent.js	/^Drupal.overlay._recordTabindex = function () {$/;"	f
+Drupal.overlay._restoreTabindex	overlay/overlay-parent.js	/^Drupal.overlay._restoreTabindex = function () {$/;"	f
+Drupal.overlay.bindChild	overlay/overlay-parent.js	/^Drupal.overlay.bindChild = function (iframeWindow, isClosing) {$/;"	c
+Drupal.overlay.close	overlay/overlay-parent.js	/^Drupal.overlay.close = function () {$/;"	c
+Drupal.overlay.create	overlay/overlay-parent.js	/^Drupal.overlay.create = function () {$/;"	c
+Drupal.overlay.destroy	overlay/overlay-parent.js	/^Drupal.overlay.destroy = function () {$/;"	c
+Drupal.overlay.eventhandlerAlterDisplacedElements	overlay/overlay-parent.js	/^Drupal.overlay.eventhandlerAlterDisplacedElements = function (event) {$/;"	f
+Drupal.overlay.eventhandlerDispatchEvent	overlay/overlay-parent.js	/^Drupal.overlay.eventhandlerDispatchEvent = function (event) {$/;"	f
+Drupal.overlay.eventhandlerOperateByURLFragment	overlay/overlay-parent.js	/^Drupal.overlay.eventhandlerOperateByURLFragment = function (event) {$/;"	f
+Drupal.overlay.eventhandlerOuterResize	overlay/overlay-parent.js	/^Drupal.overlay.eventhandlerOuterResize = function (event) {$/;"	f
+Drupal.overlay.eventhandlerOverrideLink	overlay/overlay-parent.js	/^Drupal.overlay.eventhandlerOverrideLink = function (event) {$/;"	f
+Drupal.overlay.eventhandlerRefreshPage	overlay/overlay-parent.js	/^Drupal.overlay.eventhandlerRefreshPage = function (event) {$/;"	f
+Drupal.overlay.eventhandlerRestoreDisplacedElements	overlay/overlay-parent.js	/^Drupal.overlay.eventhandlerRestoreDisplacedElements = function (event) {$/;"	f
+Drupal.overlay.eventhandlerSyncURLFragment	overlay/overlay-parent.js	/^Drupal.overlay.eventhandlerSyncURLFragment = function (event) {$/;"	f
+Drupal.overlay.fragmentizeLink	overlay/overlay-parent.js	/^Drupal.overlay.fragmentizeLink = function (link, parentLocation) {$/;"	f
+Drupal.overlay.getDisplacement	overlay/overlay-parent.js	/^Drupal.overlay.getDisplacement = function (region) {$/;"	f
+Drupal.overlay.getInternalUrl	overlay/overlay-parent.js	/^Drupal.overlay.getInternalUrl = function (path) {$/;"	f
+Drupal.overlay.getPath	overlay/overlay-parent.js	/^Drupal.overlay.getPath = function (link, ignorePathFromQueryString) {$/;"	f
+Drupal.overlay.isAdminLink	overlay/overlay-parent.js	/^Drupal.overlay.isAdminLink = function (url) {$/;"	f
+Drupal.overlay.isExternalLink	overlay/overlay-parent.js	/^Drupal.overlay.isExternalLink = function (url) {$/;"	f
+Drupal.overlay.load	overlay/overlay-parent.js	/^Drupal.overlay.load = function (url) {$/;"	f
+Drupal.overlay.loadChild	overlay/overlay-parent.js	/^Drupal.overlay.loadChild = function (event) {$/;"	c
+Drupal.overlay.makeDocumentTabbable	overlay/overlay-parent.js	/^Drupal.overlay.makeDocumentTabbable = function (context) {$/;"	f
+Drupal.overlay.makeDocumentUntabbable	overlay/overlay-parent.js	/^Drupal.overlay.makeDocumentUntabbable = function (context) {$/;"	f
+Drupal.overlay.open	overlay/overlay-parent.js	/^Drupal.overlay.open = function (url) {$/;"	c
+Drupal.overlay.redirect	overlay/overlay-parent.js	/^Drupal.overlay.redirect = function (url) {$/;"	f
+Drupal.overlay.refreshRegions	overlay/overlay-parent.js	/^Drupal.overlay.refreshRegions = function (data) {$/;"	f
+Drupal.overlay.resetActiveClass	overlay/overlay-parent.js	/^Drupal.overlay.resetActiveClass = function(activePath) {$/;"	f
+Drupal.overlay.setFocusBefore	overlay/overlay-parent.js	/^Drupal.overlay.setFocusBefore = function ($element, document) {$/;"	f
+Drupal.overlayChild	overlay/overlay-child.js	/^Drupal.overlayChild.prototype = {};$/;"	c
+Drupal.overlayChild.attachBehaviors	overlay/overlay-child.js	/^Drupal.overlayChild.attachBehaviors = function (context, settings) {$/;"	f
+Drupal.overlayChild.behaviors.addClickHandler	overlay/overlay-child.js	/^Drupal.overlayChild.behaviors.addClickHandler = function (context, settings) {$/;"	f
+Drupal.overlayChild.behaviors.alterTableHeaderOffset	overlay/overlay-child.js	/^Drupal.overlayChild.behaviors.alterTableHeaderOffset = function (context, settings) {$/;"	f
+Drupal.overlayChild.behaviors.loading	overlay/overlay-child.js	/^Drupal.overlayChild.behaviors.loading = function (context, settings) {$/;"	f
+Drupal.overlayChild.behaviors.parseForms	overlay/overlay-child.js	/^Drupal.overlayChild.behaviors.parseForms = function (context, settings) {$/;"	f
+Drupal.overlayChild.behaviors.shortcutAddLink	overlay/overlay-child.js	/^Drupal.overlayChild.behaviors.shortcutAddLink = function (context, settings) {$/;"	f
+Drupal.overlayChild.behaviors.tabs	overlay/overlay-child.js	/^Drupal.overlayChild.behaviors.tabs = function (context, settings) {$/;"	f
+Drupal.overlayChild.tableHeaderOffset	overlay/overlay-child.js	/^Drupal.overlayChild.tableHeaderOffset = function () {$/;"	f
+Drupal.theme	overlay/overlay-parent.js	/^Drupal.theme.prototype.overlayContainer = function () {$/;"	c
+Drupal.theme.overlayContainer	overlay/overlay-parent.js	/^Drupal.theme.prototype.overlayContainer = function () {$/;"	m
+Drupal.theme.overlayElement	overlay/overlay-parent.js	/^Drupal.theme.prototype.overlayElement = function (url) {$/;"	m
+Drupal.theme.tableDragChangedWarning	block/block.js	/^    Drupal.theme.tableDragChangedWarning = function () {$/;"	f
+Drupal.toolbar.collapse	toolbar/toolbar.js	/^Drupal.toolbar.collapse = function() {$/;"	f
+Drupal.toolbar.expand	toolbar/toolbar.js	/^Drupal.toolbar.expand = function() {$/;"	f
+Drupal.toolbar.height	toolbar/toolbar.js	/^Drupal.toolbar.height = function() {$/;"	f
+Drupal.toolbar.init	toolbar/toolbar.js	/^Drupal.toolbar.init = function() {$/;"	f
+Drupal.toolbar.toggle	toolbar/toolbar.js	/^Drupal.toolbar.toggle = function() {$/;"	f
+DrupalTestCase	simpletest/drupal_web_test_case.php	/^abstract class DrupalTestCase {$/;"	c
+DrupalUnitTestCase	simpletest/drupal_web_test_case.php	/^class DrupalUnitTestCase extends DrupalTestCase {$/;"	c
+DrupalWebTestCase	simpletest/drupal_web_test_case.php	/^class DrupalWebTestCase extends DrupalTestCase {$/;"	c
+ExampleTest	simpletest/tests/psr_0_test/lib/Drupal/psr_0_test/Tests/ExampleTest.php	/^class ExampleTest extends \\DrupalWebTestCase {$/;"	c
+ExampleTest	simpletest/tests/psr_4_test/src/Tests/ExampleTest.php	/^class ExampleTest extends \\DrupalWebTestCase {$/;"	c
+MODULE_page_delivery_callback_alter	system/system.api.php	/^ * function MODULE_page_delivery_callback_alter(&$callback, $set = FALSE) {$/;"	f
+NestedExampleTest	simpletest/tests/psr_0_test/lib/Drupal/psr_0_test/Tests/Nested/NestedExampleTest.php	/^class NestedExampleTest extends \\DrupalWebTestCase {$/;"	c
+NestedExampleTest	simpletest/tests/psr_4_test/src/Tests/Nested/NestedExampleTest.php	/^class NestedExampleTest extends \\DrupalWebTestCase {$/;"	c
+PSR0WebTest	simpletest/lib/Drupal/simpletest/Tests/PSR0WebTest.php	/^class PSR0WebTest extends \\DrupalWebTestCase {$/;"	c
+PSR4WebTest	simpletest/src/Tests/PSR4WebTest.php	/^class PSR4WebTest extends \\DrupalWebTestCase {$/;"	c
+SOMEWHERE_ELSE	system/system.api.php	/^ * function SOMEWHERE_ELSE() {$/;"	f
+__construct	simpletest/drupal_web_test_case.php	/^  function __construct($test_id = NULL) {$/;"	f
+__construct	simpletest/drupal_web_test_case.php	/^  public function __construct($test_id = NULL) {$/;"	f
+_update_6000_bar_get_types	system/system.api.php	/^ * function _update_6000_bar_get_types() {$/;"	f
+_update_7000_bar_get_types	system/system.api.php	/^ * function _update_7000_bar_get_types() {$/;"	f
+_update_7001_bar_get_types	system/system.api.php	/^ * function _update_7001_bar_get_types() {$/;"	f
+access_alias	system/system.api.php	/^      $access_alias = $query->join('node_access', 'na', '%alias.nid = n.nid');$/;"	v
+account	simpletest/drupal_web_test_case.php	/^    $account = user_save(drupal_anonymous_user(), $edit);$/;"	v
+account	simpletest/drupal_web_test_case.php	/^   *   $account = $this->drupalCreateUser(array());$/;"	v
+account	simpletest/drupal_web_test_case.php	/^   *   $account = user_load($account->uid);$/;"	v
+account	system/system.api.php	/^  $account = $params['account'];$/;"	v
+action	simpletest/drupal_web_test_case.php	/^          $action = $this->getAbsoluteUrl(!empty($submit['path']) ? $submit['path'] : 'system\/ajax');$/;"	v
+action	simpletest/drupal_web_test_case.php	/^        $action = isset($form['action']) ? $this->getAbsoluteUrl((string) $form['action']) : $this->getUrl();$/;"	v
+acts	system/system.api.php	/^ * _update_N_mymodule_my_function(). N is the schema version the function acts$/;"	f
+actual	simpletest/drupal_web_test_case.php	/^    $actual = (string) current($this->xpath('\/\/title'));$/;"	v
+additionalCurlOptions	simpletest/drupal_web_test_case.php	/^    $this->additionalCurlOptions = array();$/;"	v
+additionalCurlOptions	simpletest/drupal_web_test_case.php	/^  protected $additionalCurlOptions = array();$/;"	v
+ajax	simpletest/drupal_web_test_case.php	/^    $ajax = is_array($submit);$/;"	v
+ajax_path	simpletest/drupal_web_test_case.php	/^      $ajax_path = isset($ajax_settings['url']) ? $ajax_settings['url'] : 'system\/ajax';$/;"	v
+ajax_path	simpletest/drupal_web_test_case.php	/^  protected function drupalPostAJAX($path, $edit, $triggering_element, $ajax_path = NULL, array $options = array(), array $headers = array(), $form_html_id = NULL, $ajax_settings = NULL) {$/;"	v
+ajax_settings	simpletest/drupal_web_test_case.php	/^      $ajax_settings = $drupal_settings['ajax'][$element_id];$/;"	v
+all_languages	field/field.api.php	/^    $all_languages = field_available_languages($entity_type, $field);$/;"	v
+all_permutations	simpletest/drupal_web_test_case.php	/^      $all_permutations = $new_permutations;$/;"	v
+all_permutations	simpletest/drupal_web_test_case.php	/^    $all_permutations = array(array());$/;"	v
+all_requests	simpletest/drupal_web_test_case.php	/^  protected function drupalGetHeader($name, $all_requests = FALSE) {$/;"	v
+allows	system/system.api.php	/^ * The FileTransfer class allows transferring files over a specific type of$/;"	c
+an	simpletest/drupal_web_test_case.php	/^   * When displaying which function an assert comes from, it's not too useful$/;"	f
+and	simpletest/simpletest.api.php	/^ *   getInfo) the second is the name of the class and the value is the return$/;"	c
+and	system/system.api.php	/^ *     page callback function and send it to the browser. Defaults to$/;"	f
+are	simpletest/drupal_web_test_case.php	/^   *   array('testFoo', 'testBar'). By default, all methods of the class are$/;"	c
+args	simpletest/drupal_web_test_case.php	/^  protected function buildXPathQuery($xpath, array $args = array()) {$/;"	v
+argument	system/system.api.php	/^ *     single $variables function argument.$/;"	f
+argument	system/theme.api.php	/^  \/\/ Determine the primary theme function argument.$/;"	f
+arguments	simpletest/drupal_web_test_case.php	/^  protected function xpath($xpath, array $arguments = array()) {$/;"	v
+arguments	system/system.api.php	/^ * &$form_state as the first function arguments:$/;"	f
+assert	simpletest/drupal_web_test_case.php	/^  protected function assert($status, $message = '', $group = 'Other', array $caller = NULL) {$/;"	f
+assertEqual	simpletest/drupal_web_test_case.php	/^  protected function assertEqual($first, $second, $message = '', $group = 'Other') {$/;"	f
+assertFalse	simpletest/drupal_web_test_case.php	/^  protected function assertFalse($value, $message = '', $group = 'Other') {$/;"	f
+assertField	simpletest/drupal_web_test_case.php	/^  protected function assertField($field, $message = '', $group = 'Other') {$/;"	f
+assertFieldById	simpletest/drupal_web_test_case.php	/^  protected function assertFieldById($id, $value = '', $message = '') {$/;"	f
+assertFieldByName	simpletest/drupal_web_test_case.php	/^  protected function assertFieldByName($name, $value = NULL, $message = NULL) {$/;"	f
+assertFieldByXPath	simpletest/drupal_web_test_case.php	/^  protected function assertFieldByXPath($xpath, $value = NULL, $message = '', $group = 'Other') {$/;"	f
+assertFieldChecked	simpletest/drupal_web_test_case.php	/^  protected function assertFieldChecked($id, $message = '') {$/;"	f
+assertIdentical	simpletest/drupal_web_test_case.php	/^  protected function assertIdentical($first, $second, $message = '', $group = 'Other') {$/;"	f
+assertLink	simpletest/drupal_web_test_case.php	/^  protected function assertLink($label, $index = 0, $message = '', $group = 'Other') {$/;"	f
+assertLinkByHref	simpletest/drupal_web_test_case.php	/^  protected function assertLinkByHref($href, $index = 0, $message = '', $group = 'Other') {$/;"	f
+assertMail	simpletest/drupal_web_test_case.php	/^  protected function assertMail($name, $value = '', $message = '') {$/;"	f
+assertMailPattern	simpletest/drupal_web_test_case.php	/^  protected function assertMailPattern($field_name, $regex, $message) {$/;"	f
+assertMailString	simpletest/drupal_web_test_case.php	/^  protected function assertMailString($field_name, $string, $email_depth) {$/;"	f
+assertNoDuplicateIds	simpletest/drupal_web_test_case.php	/^  protected function assertNoDuplicateIds($message = '', $group = 'Other', $ids_to_skip = array()) {$/;"	f
+assertNoField	simpletest/drupal_web_test_case.php	/^  protected function assertNoField($field, $message = '', $group = 'Other') {$/;"	f
+assertNoFieldById	simpletest/drupal_web_test_case.php	/^  protected function assertNoFieldById($id, $value = '', $message = '') {$/;"	f
+assertNoFieldByName	simpletest/drupal_web_test_case.php	/^  protected function assertNoFieldByName($name, $value = '', $message = '') {$/;"	f
+assertNoFieldByXPath	simpletest/drupal_web_test_case.php	/^  protected function assertNoFieldByXPath($xpath, $value = NULL, $message = '', $group = 'Other') {$/;"	f
+assertNoFieldChecked	simpletest/drupal_web_test_case.php	/^  protected function assertNoFieldChecked($id, $message = '') {$/;"	f
+assertNoLink	simpletest/drupal_web_test_case.php	/^  protected function assertNoLink($label, $message = '', $group = 'Other') {$/;"	f
+assertNoLinkByHref	simpletest/drupal_web_test_case.php	/^  protected function assertNoLinkByHref($href, $message = '', $group = 'Other') {$/;"	f
+assertNoOptionSelected	simpletest/drupal_web_test_case.php	/^  protected function assertNoOptionSelected($id, $option, $message = '') {$/;"	f
+assertNoPattern	simpletest/drupal_web_test_case.php	/^  protected function assertNoPattern($pattern, $message = '', $group = 'Other') {$/;"	f
+assertNoRaw	simpletest/drupal_web_test_case.php	/^  protected function assertNoRaw($raw, $message = '', $group = 'Other') {$/;"	f
+assertNoResponse	simpletest/drupal_web_test_case.php	/^  protected function assertNoResponse($code, $message = '') {$/;"	f
+assertNoText	simpletest/drupal_web_test_case.php	/^  protected function assertNoText($text, $message = '', $group = 'Other') {$/;"	f
+assertNoTitle	simpletest/drupal_web_test_case.php	/^  protected function assertNoTitle($title, $message = '', $group = 'Other') {$/;"	f
+assertNoUniqueText	simpletest/drupal_web_test_case.php	/^  protected function assertNoUniqueText($text, $message = '', $group = 'Other') {$/;"	f
+assertNotEqual	simpletest/drupal_web_test_case.php	/^  protected function assertNotEqual($first, $second, $message = '', $group = 'Other') {$/;"	f
+assertNotIdentical	simpletest/drupal_web_test_case.php	/^  protected function assertNotIdentical($first, $second, $message = '', $group = 'Other') {$/;"	f
+assertNotNull	simpletest/drupal_web_test_case.php	/^  protected function assertNotNull($value, $message = '', $group = 'Other') {$/;"	f
+assertNull	simpletest/drupal_web_test_case.php	/^  protected function assertNull($value, $message = '', $group = 'Other') {$/;"	f
+assertOptionSelected	simpletest/drupal_web_test_case.php	/^  protected function assertOptionSelected($id, $option, $message = '') {$/;"	f
+assertPattern	simpletest/drupal_web_test_case.php	/^  protected function assertPattern($pattern, $message = '', $group = 'Other') {$/;"	f
+assertRaw	simpletest/drupal_web_test_case.php	/^  protected function assertRaw($raw, $message = '', $group = 'Other') {$/;"	f
+assertResponse	simpletest/drupal_web_test_case.php	/^  protected function assertResponse($code, $message = '') {$/;"	f
+assertText	simpletest/drupal_web_test_case.php	/^  protected function assertText($text, $message = '', $group = 'Other') {$/;"	f
+assertTextHelper	simpletest/drupal_web_test_case.php	/^  protected function assertTextHelper($text, $message = '', $group, $not_exists) {$/;"	f
+assertThemeOutput	simpletest/drupal_web_test_case.php	/^  protected function assertThemeOutput($callback, array $variables = array(), $expected, $message = '', $group = 'Other') {$/;"	f
+assertTitle	simpletest/drupal_web_test_case.php	/^  protected function assertTitle($title, $message = '', $group = 'Other') {$/;"	f
+assertTrue	simpletest/drupal_web_test_case.php	/^  protected function assertTrue($value, $message = '', $group = 'Other') {$/;"	f
+assertUniqueText	simpletest/drupal_web_test_case.php	/^  protected function assertUniqueText($text, $message = '', $group = 'Other') {$/;"	f
+assertUniqueTextHelper	simpletest/drupal_web_test_case.php	/^  protected function assertUniqueTextHelper($text, $message = '', $group, $be_unique) {$/;"	f
+assertUrl	simpletest/drupal_web_test_case.php	/^  protected function assertUrl($path, array $options = array(), $message = '', $group = 'Other') {$/;"	f
+assertion	simpletest/drupal_web_test_case.php	/^    $assertion = array($/;"	v
+assertion	simpletest/drupal_web_test_case.php	/^    $this->assertions[] = $assertion = array($/;"	v
+assertions	simpletest/drupal_web_test_case.php	/^  protected $assertions = array();$/;"	v
+at	system/system.api.php	/^ * a return value from your task function at all. This can be used, for$/;"	f
+attribute	block/block.tpl.php	/^ * - $classes_array: Array of html class attribute values. It is flattened$/;"	c
+attribute	comment/comment-wrapper.tpl.php	/^ * - $classes_array: Array of html class attribute values. It is flattened$/;"	c
+attribute	comment/comment.tpl.php	/^ * - $classes_array: Array of html class attribute values. It is flattened$/;"	c
+attribute	field/theme/field.tpl.php	/^ * - $classes_array: Array of html class attribute values. It is flattened$/;"	c
+attribute	node/node.tpl.php	/^ * - $classes_array: Array of html class attribute values. It is flattened$/;"	c
+attribute	overlay/overlay.tpl.php	/^ * - $classes_array: Array of html class attribute values. It is flattened$/;"	c
+attribute	search/search-result.tpl.php	/^ * - $classes_array: Array of HTML class attribute values. It is flattened$/;"	c
+attribute	system/region.tpl.php	/^ * - $classes_array: Array of html class attribute values. It is flattened$/;"	c
+attribute	taxonomy/taxonomy-term.tpl.php	/^ * - $classes_array: Array of html class attribute values. It is flattened$/;"	c
+attribute	toolbar/toolbar.tpl.php	/^ * - $classes_array: Array of html class attribute values. It is flattened$/;"	c
+author	system/system.api.php	/^      $author = user_load($node->uid);$/;"	v
+available	simpletest/drupal_web_test_case.php	/^      $available = array_keys(module_invoke_all('permission'));$/;"	v
+available	simpletest/drupal_web_test_case.php	/^    $available = &drupal_static(__FUNCTION__);$/;"	v
+backtrace	simpletest/drupal_web_test_case.php	/^      $backtrace = debug_backtrace();$/;"	v
+backtrace	simpletest/drupal_web_test_case.php	/^    $backtrace = $exception->getTrace();$/;"	v
+backtrace	simpletest/drupal_web_test_case.php	/^    $backtrace = debug_backtrace();$/;"	v
+bar_update_7000	system/system.api.php	/^ * function bar_update_7000() {$/;"	f
+bar_update_7001	system/system.api.php	/^ * function bar_update_7001() {$/;"	f
+behaviors.blockSettingsSummary.attach	block/block.js	/^  attach: function (context) {$/;"	m
+behaviors.bookFieldsetSummaries.attach	book/book.js	/^  attach: function (context) {$/;"	m
+behaviors.color.attach	color/color.js	/^  attach: function (context, settings) {$/;"	m
+behaviors.color.attach.callback	color/color.js	/^    function callback(input, color, propagate, colorScheme) {$/;"	f
+behaviors.color.attach.focus	color/color.js	/^    function focus() {$/;"	f
+behaviors.color.attach.preview	color/color.js	/^    function preview() {$/;"	f
+behaviors.color.attach.resetScheme	color/color.js	/^    function resetScheme() {$/;"	f
+behaviors.color.attach.shift_color	color/color.js	/^    function shift_color(given, ref1, ref2) {$/;"	f
+behaviors.commentFieldsetSummaries.attach	comment/comment-node-form.js	/^  attach: function (context) {$/;"	m
+behaviors.contentTypes.attach	node/content_types.js	/^  attach: function (context) {$/;"	m
+behaviors.cronCheck.attach	system/system.cron.js	/^  attach: function(context, settings) {$/;"	m
+behaviors.dashboard.addPlaceholders	dashboard/dashboard.js	/^  addPlaceholders: function() {$/;"	m
+behaviors.dashboard.attach	dashboard/dashboard.js	/^  attach: function (context, settings) {$/;"	m
+behaviors.dashboard.enterCustomizeMode	dashboard/dashboard.js	/^  enterCustomizeMode: function () {$/;"	m
+behaviors.dashboard.exitCustomizeMode	dashboard/dashboard.js	/^  exitCustomizeMode: function () {$/;"	m
+behaviors.dashboard.getOrder	dashboard/dashboard.js	/^  getOrder: function () {$/;"	m
+behaviors.dashboard.over	dashboard/dashboard.js	/^  over: function (event, ui) {$/;"	m
+behaviors.dashboard.setupDrawer	dashboard/dashboard.js	/^  setupDrawer: function () {$/;"	m
+behaviors.dashboard.sort	dashboard/dashboard.js	/^  sort: function (event, ui) {$/;"	m
+behaviors.dashboard.start	dashboard/dashboard.js	/^  start: function (event, ui) {$/;"	m
+behaviors.dashboard.update	dashboard/dashboard.js	/^  update: function (event, ui) {$/;"	m
+behaviors.fieldUIFieldOverview.attach	field_ui/field_ui.js	/^  attach: function (context, settings) {$/;"	m
+behaviors.fileValidateAutoAttach.attach	file/file.js	/^  attach: function (context, settings) {$/;"	m
+behaviors.fileValidateAutoAttach.detach	file/file.js	/^  detach: function (context, settings) {$/;"	m
+behaviors.filterGuidelines.attach	filter/filter.js	/^  attach: function (context) {$/;"	m
+behaviors.filterStatus.attach	filter/filter.admin.js	/^  attach: function (context, settings) {$/;"	m
+behaviors.localeDatepicker.attach	locale/locale.datepicker.js	/^  attach: function(context, settings) {$/;"	m
+behaviors.menuChangeParentItems.attach	menu/menu.admin.js	/^  attach: function (context, settings) {$/;"	m
+behaviors.menuFieldsetSummaries.attach	menu/menu.js	/^  attach: function (context) {$/;"	m
+behaviors.nodeFieldsetSummaries.attach	node/node.js	/^  attach: function (context) {$/;"	m
+behaviors.openid.attach	openid/openid.js	/^  attach: function (context) {$/;"	m
+behaviors.overlayChild.attach	overlay/overlay-child.js	/^  attach: function (context, settings) {$/;"	m
+behaviors.overlayParent.attach	overlay/overlay-parent.js	/^  attach: function (context, settings) {$/;"	m
+behaviors.password.attach	user/user.js	/^  attach: function (context, settings) {$/;"	m
+behaviors.pathFieldsetSummaries.attach	path/path.js	/^  attach: function (context) {$/;"	m
+behaviors.permissions.attach	user/user.permissions.js	/^  attach: function (context) {$/;"	m
+behaviors.permissions.toggle	user/user.permissions.js	/^  toggle: function () {$/;"	m
+behaviors.profileDrag.attach	profile/profile.js	/^  attach: function (context, settings) {$/;"	m
+behaviors.shortcutDrag.attach	shortcut/shortcut.admin.js	/^  attach: function (context, settings) {$/;"	m
+behaviors.simpleTestMenuCollapse.attach	simpletest/simpletest.js	/^  attach: function (context, settings) {$/;"	m
+behaviors.termDrag.attach	taxonomy/taxonomy.js	/^  attach: function (context, settings) {$/;"	m
+behaviors.textSummary.attach	field/modules/text/text.js	/^  attach: function (context, settings) {$/;"	m
+block	block/block.api.php	/^  $block = array();$/;"	v
+block_languages	block/block.api.php	/^  $block_languages = array();$/;"	v
+body	field/field.api.php	/^  \/\/ @todo Needs function body.$/;"	f
+body	simpletest/drupal_web_test_case.php	/^    $body = array($/;"	v
+body	system/system.api.php	/^  $body = strtr($context['message'], $variables);$/;"	v
+book_id	book/book-all-books-block.tpl.php	/^<?php foreach ($book_menus as $book_id => $menu): ?>$/;"	v
+breadcrumb	node/node.api.php	/^    $breadcrumb = array();$/;"	v
+buildId	simpletest/drupal_web_test_case.php	/^            $buildId = $xpath->query('\/\/input[@name="form_build_id" and @value="' . $command['old'] . '"]')->item(0);$/;"	v
+buildXPathQuery	simpletest/drupal_web_test_case.php	/^  protected function buildXPathQuery($xpath, array $args = array()) {$/;"	f
+callback	system/system.api.php	/^    $callback = 'ajax_deliver';$/;"	v
+callback	system/system.api.php	/^  if (isset($_SERVER['HTTP_X_REQUESTED_WITH']) && $_SERVER['HTTP_X_REQUESTED_WITH'] == 'XMLHttpRequest' && $callback == 'drupal_deliver_html_page') {$/;"	v
+callback	system/system.api.php	/^ *     $callback = $stored_callback;$/;"	v
+callback_batch_finished	system/form.api.php	/^function callback_batch_finished($success, $results, $operations) {$/;"	f
+callback_batch_operation	system/form.api.php	/^function callback_batch_operation($MULTIPLE_PARAMS, &$context) {$/;"	f
+callback_entity_info_label	system/system.api.php	/^function callback_entity_info_label($entity, $entity_type) {$/;"	f
+callback_entity_info_language	system/system.api.php	/^function callback_entity_info_language($entity, $entity_type) {$/;"	f
+callback_entity_info_uri	system/system.api.php	/^function callback_entity_info_uri($entity) {$/;"	f
+callback_filter_prepare	filter/filter.api.php	/^function callback_filter_prepare($text, $filter, $format, $langcode, $cache, $cache_id) {$/;"	f
+callback_filter_process	filter/filter.api.php	/^function callback_filter_process($text, $filter, $format, $langcode, $cache, $cache_id) {$/;"	f
+callback_filter_settings	filter/filter.api.php	/^function callback_filter_settings($form, &$form_state, $filter, $format, $defaults, $filters) {$/;"	f
+callback_filter_tips	filter/filter.api.php	/^function callback_filter_tips($filter, $format, $long) {$/;"	f
+callback_queue_worker	system/system.api.php	/^function callback_queue_worker($queue_item_data) {$/;"	f
+callback_search_conditions	search/search.api.php	/^function callback_search_conditions($keys) {$/;"	f
+callbacks	openid/openid.api.php	/^ *   An array with a set of function callbacks, that will be called in turn$/;"	f
+callbacks	openid/openid.api.php	/^ *   values are function callbacks.$/;"	f
+callbacks	openid/openid.api.php	/^ * The discovery function callbacks will be called in turn with an unique$/;"	f
+callbacks	simpletest/drupal_web_test_case.php	/^    $callbacks = $this->originalShutdownCallbacks;$/;"	v
+callbacks	simpletest/drupal_web_test_case.php	/^    $callbacks = &drupal_register_shutdown_function();$/;"	v
+callbacks	simpletest/drupal_web_test_case.php	/^    $callbacks = array();$/;"	v
+caller	simpletest/drupal_web_test_case.php	/^        $caller = array($/;"	v
+caller	simpletest/drupal_web_test_case.php	/^      $caller = $this->getAssertionCall();$/;"	v
+calling	system/system.api.php	/^ *     the value given is used as the default value if the function calling$/;"	f
+calls	field/field.api.php	/^  \/\/ hook_field_display_alter(), resulting in less function calls when$/;"	f
+can	simpletest/drupal_web_test_case.php	/^   *   This function can also be called to emulate an Ajax submission. In this$/;"	f
+can	system/theme.api.php	/^ * Additionally, the theme() function can take an array of theme$/;"	f
+captured_emails	simpletest/drupal_web_test_case.php	/^    $captured_emails = variable_get('drupal_test_email_collector', array());$/;"	v
+cdn1	system/system.api.php	/^  $cdn1 = 'http:\/\/cdn1.example.com';$/;"	v
+cdn2	system/system.api.php	/^  $cdn2 = 'http:\/\/cdn2.example.com';$/;"	v
+cdn_extensions	system/system.api.php	/^  $cdn_extensions = array('css', 'js', 'gif', 'jpg', 'jpeg', 'png');$/;"	v
+changeDatabasePrefix	simpletest/drupal_web_test_case.php	/^  protected function changeDatabasePrefix() {$/;"	f
+checkForMetaRefresh	simpletest/drupal_web_test_case.php	/^  protected function checkForMetaRefresh() {$/;"	f
+checkPermissions	simpletest/drupal_web_test_case.php	/^  protected function checkPermissions(array $permissions, $reset = FALSE) {$/;"	f
+child_id	forum/forum-list.tpl.php	/^  <?php foreach ($forums as $child_id => $forum): ?>$/;"	v
+class	simpletest/drupal_web_test_case.php	/^    $class = $test_class;$/;"	v
+class	simpletest/drupal_web_test_case.php	/^    $class = get_class($this);$/;"	v
+class_methods	simpletest/drupal_web_test_case.php	/^      $class_methods = array_intersect($class_methods, $methods);$/;"	v
+class_methods	simpletest/drupal_web_test_case.php	/^    $class_methods = get_class_methods($class);$/;"	v
+class_safe	simpletest/drupal_web_test_case.php	/^      $class_safe = str_replace('\\\\', '_', get_class($this));$/;"	v
+clickLink	simpletest/drupal_web_test_case.php	/^  protected function clickLink($label, $index = 0) {$/;"	f
+color.callback	color/preview.js	/^    callback: function(context, settings, form, farb, height, width) {$/;"	m
+column	field/field.api.php	/^        foreach ($field['columns'] as $column => $attributes) {$/;"	v
+column	field/field.api.php	/^    foreach ($field['columns'] as $column => $attributes) {$/;"	v
+column_name	field/field.api.php	/^          $column_name = _field_sql_storage_columnname($field_name, $column);$/;"	v
+column_name	field/field.api.php	/^    foreach ((array) $field['columns'] as $column_name => $attributes) {$/;"	v
+column_name	field/field.api.php	/^  foreach ((array) $field['columns'] as $column_name => $attributes) {$/;"	v
+columns	field/field.api.php	/^    $columns = array($/;"	v
+columns	field/field.api.php	/^    $columns = array('entity_type', 'entity_id', 'revision_id', 'bundle', 'delta', 'language');$/;"	v
+columns	field/field.api.php	/^    $columns = array();$/;"	v
+comments	node/node.api.php	/^  $comments = db_query('SELECT comment_count FROM {node_comment_statistics} WHERE nid = :nid', array('nid' => $node->nid))->fetchField();$/;"	v
+comments	node/node.api.php	/^  $comments = db_query('SELECT subject, comment, format FROM {comment} WHERE nid = :nid AND status = :status', array(':nid' => $node->nid, ':status' => COMMENT_PUBLISHED));$/;"	v
+compare_size	simpletest/drupal_web_test_case.php	/^    $compare_size = filesize($file1->uri) - filesize($file2->uri);$/;"	v
+completion_check_id	simpletest/drupal_web_test_case.php	/^        $completion_check_id = DrupalTestCase::insertAssert($this->testId, $class, FALSE, t('The test did not complete due to a fatal error.'), 'Completion check', $caller);$/;"	v
+conditions	search/search.api.php	/^  $conditions = array();$/;"	v
+conditions	search/search.api.php	/^function hook_search_execute($keys = NULL, $conditions = NULL) {$/;"	v
+conf	simpletest/drupal_web_test_case.php	/^    $conf = array();$/;"	v
+conf	simpletest/drupal_web_test_case.php	/^    $conf = variable_initialize();$/;"	v
+connection	simpletest/drupal_web_test_case.php	/^      $connection = Database::getConnection('default', 'default');$/;"	v
+connection	simpletest/drupal_web_test_case.php	/^      $connection = Database::getConnection('default', 'simpletest_original_default');$/;"	v
+connection_info	simpletest/drupal_web_test_case.php	/^    $connection_info = Database::getConnectionInfo('default');$/;"	v
+constructFieldXpath	simpletest/drupal_web_test_case.php	/^  protected function constructFieldXpath($attribute, $value) {$/;"	f
+content	simpletest/drupal_web_test_case.php	/^      $content = $dom->saveHTML();$/;"	v
+content	simpletest/drupal_web_test_case.php	/^    $content = $this->content;$/;"	v
+content	simpletest/drupal_web_test_case.php	/^    $content = curl_exec($this->curlHandle);$/;"	v
+content	simpletest/drupal_web_test_case.php	/^    $this->content = $content;$/;"	v
+content	simpletest/drupal_web_test_case.php	/^  protected $content;$/;"	v
+context	system/system.api.php	/^  $context = $params['context'];$/;"	v
+context	system/theme.api.php	/^      $context = array($/;"	v
+cookieFile	simpletest/drupal_web_test_case.php	/^        $this->cookieFile = $this->public_files_directory . '\/cookie.jar';$/;"	v
+cookieFile	simpletest/drupal_web_test_case.php	/^  protected $cookieFile = NULL;$/;"	v
+count	simpletest/drupal_web_test_case.php	/^      $count = 0;$/;"	v
+count	simpletest/drupal_web_test_case.php	/^      $count = db_query('SELECT COUNT(*) FROM {role_permission} WHERE rid = :rid', array(':rid' => $role->rid))->fetchField();$/;"	v
+cronRun	simpletest/drupal_web_test_case.php	/^  protected function cronRun() {$/;"	f
+cron_last	system/system.api.php	/^    $cron_last = variable_get('cron_last');$/;"	v
+curlClose	simpletest/drupal_web_test_case.php	/^  protected function curlClose() {$/;"	f
+curlExec	simpletest/drupal_web_test_case.php	/^  protected function curlExec($curl_options, $redirect = FALSE) {$/;"	f
+curlHandle	simpletest/drupal_web_test_case.php	/^      $this->curlHandle = curl_init();$/;"	v
+curlHandle	simpletest/drupal_web_test_case.php	/^  protected $curlHandle;$/;"	v
+curlHeaderCallback	simpletest/drupal_web_test_case.php	/^  protected function curlHeaderCallback($curlHandler, $header) {$/;"	f
+curlInitialize	simpletest/drupal_web_test_case.php	/^  protected function curlInitialize() {$/;"	f
+curl_code	simpletest/drupal_web_test_case.php	/^    $curl_code = curl_getinfo($this->curlHandle, CURLINFO_HTTP_CODE);$/;"	v
+curl_options	simpletest/drupal_web_test_case.php	/^        $curl_options = array();$/;"	v
+curl_options	simpletest/drupal_web_test_case.php	/^      $curl_options = array($/;"	v
+data	simpletest/tests/themes/test_theme/template.php	/^  $data = 'test_theme_theme_test_alter_alter was invoked';$/;"	v
+data	system/system.api.php	/^function hook_tokens($type, $tokens, array $data = array(), array $options = array()) {$/;"	v
+databasePrefix	simpletest/drupal_web_test_case.php	/^    $this->databasePrefix = 'simpletest' . mt_rand(1000, 1000000);$/;"	v
+databasePrefix	simpletest/drupal_web_test_case.php	/^    $this->databasePrefix = Database::getConnection()->prefixTables('{simpletest' . mt_rand(1000, 1000000) . '}');$/;"	v
+databasePrefix	simpletest/drupal_web_test_case.php	/^  protected $databasePrefix = NULL;$/;"	v
+defaults	simpletest/drupal_web_test_case.php	/^    $defaults = array($/;"	v
+defined	block/block.api.php	/^  \/\/ Add a theme wrapper function defined by the current module to all blocks$/;"	f
+defined	system/system.api.php	/^  \/\/ with a custom callback function defined by this installation profile.$/;"	f
+defined	system/system.api.php	/^ *     function defined in 'callback', which are prepended to $args.$/;"	f
+defined	system/system.api.php	/^ *   function defined by this profile, although that is not strictly required)$/;"	f
+definition	block/block.api.php	/^  \/\/ in the function definition above is set to "mymodule_somedelta", the code$/;"	f
+deleteAssert	simpletest/drupal_web_test_case.php	/^  public static function deleteAssert($message_id) {$/;"	f
+delta	block/block-admin-display-form.tpl.php	/^      <?php foreach ($block_listing[$region] as $delta => $data): ?>$/;"	v
+delta	field/field.api.php	/^      foreach ($element['#items'] as $delta => $item) {$/;"	v
+delta	field/field.api.php	/^      foreach ($items as $delta => $item) {$/;"	v
+delta	field/field.api.php	/^      foreach ($items[$id] as $delta => $item) {$/;"	v
+delta	field/field.api.php	/^    foreach ($items as $delta => $item) {$/;"	v
+delta	field/field.api.php	/^    foreach ($items[$id] as $delta => $item) {$/;"	v
+delta	field/field.api.php	/^  foreach ($items as $delta => $item) {$/;"	v
+delta	field/theme/field.tpl.php	/^    <?php foreach ($items as $delta => $item): ?>$/;"	v
+delta_count	field/field.api.php	/^      $delta_count = 0;$/;"	v
+delta_count	field/field.api.php	/^    $delta_count = array();$/;"	v
+depends	system/system.api.php	/^ *   update function depends on more than one update from a particular module,$/;"	f
+desired_delivery_callback	system/system.api.php	/^ *   $desired_delivery_callback = 'foo';$/;"	v
+dest_query	simpletest/drupal_web_test_case.php	/^      $dest_query = $test_connection->insert($table);$/;"	v
+details	field/field.api.php	/^  $details = array();$/;"	v
+differs	system/system.api.php	/^ * This function differs from hook_disable() in that it gives all other modules$/;"	f
+differs	system/system.api.php	/^ * This function differs from hook_enable() in that it gives all other modules a$/;"	f
+differs	system/system.api.php	/^ * This function differs from hook_install() in that it gives all other modules$/;"	f
+differs	system/system.api.php	/^ * This function differs from hook_uninstall() in that it gives all other$/;"	f
+dir	system/system.api.php	/^      $dir = $module->dir;$/;"	v
+directly	simpletest/drupal_web_test_case.php	/^   * It is not recommended to call this function directly.$/;"	f
+directory	simpletest/drupal_web_test_case.php	/^    $directory = $file_directory . '\/simpletest\/verbose';$/;"	v
+display	field_ui/field_ui.api.php	/^  $display = $instance['display'][$view_mode];$/;"	v
+div_close	book/book-export-html.tpl.php	/^    $div_close = '';$/;"	v
+do_insert	field/field.api.php	/^        $do_insert = TRUE;$/;"	v
+do_insert	field/field.api.php	/^    $do_insert = FALSE;$/;"	v
+does	system/system.api.php	/^ *     theme callback, or if the function does not return the name of a current$/;"	f
+dom	simpletest/drupal_web_test_case.php	/^      $dom = new DOMDocument();$/;"	v
+done	simpletest/drupal_web_test_case.php	/^                    $done = TRUE;$/;"	v
+done	simpletest/drupal_web_test_case.php	/^                  $done = TRUE;$/;"	v
+done	simpletest/drupal_web_test_case.php	/^                $done = TRUE;$/;"	v
+done	simpletest/drupal_web_test_case.php	/^      $done = FALSE;$/;"	v
+drupalCompareFiles	simpletest/drupal_web_test_case.php	/^  protected function drupalCompareFiles($file1, $file2) {$/;"	f
+drupalCreateContentType	simpletest/drupal_web_test_case.php	/^  protected function drupalCreateContentType($settings = array()) {$/;"	f
+drupalCreateNode	simpletest/drupal_web_test_case.php	/^  protected function drupalCreateNode($settings = array()) {$/;"	f
+drupalCreateRole	simpletest/drupal_web_test_case.php	/^  protected function drupalCreateRole(array $permissions, $name = NULL) {$/;"	f
+drupalCreateUser	simpletest/drupal_web_test_case.php	/^  protected function drupalCreateUser(array $permissions = array()) {$/;"	f
+drupalGet	simpletest/drupal_web_test_case.php	/^  protected function drupalGet($path, array $options = array(), array $headers = array()) {$/;"	f
+drupalGetAJAX	simpletest/drupal_web_test_case.php	/^  protected function drupalGetAJAX($path, array $options = array(), array $headers = array()) {$/;"	f
+drupalGetContent	simpletest/drupal_web_test_case.php	/^  protected function drupalGetContent() {$/;"	f
+drupalGetHeader	simpletest/drupal_web_test_case.php	/^  protected function drupalGetHeader($name, $all_requests = FALSE) {$/;"	f
+drupalGetHeaders	simpletest/drupal_web_test_case.php	/^  protected function drupalGetHeaders($all_requests = FALSE) {$/;"	f
+drupalGetMails	simpletest/drupal_web_test_case.php	/^  protected function drupalGetMails($filter = array()) {$/;"	f
+drupalGetNodeByTitle	simpletest/drupal_web_test_case.php	/^  function drupalGetNodeByTitle($title, $reset = FALSE) {$/;"	f
+drupalGetSettings	simpletest/drupal_web_test_case.php	/^  protected function drupalGetSettings() {$/;"	f
+drupalGetTestFiles	simpletest/drupal_web_test_case.php	/^  protected function drupalGetTestFiles($type, $size = NULL) {$/;"	f
+drupalGetToken	simpletest/drupal_web_test_case.php	/^  protected function drupalGetToken($value = '') {$/;"	f
+drupalHead	simpletest/drupal_web_test_case.php	/^  protected function drupalHead($path, array $options = array(), array $headers = array()) {$/;"	f
+drupalLogin	simpletest/drupal_web_test_case.php	/^  protected function drupalLogin(stdClass $account) {$/;"	f
+drupalLogout	simpletest/drupal_web_test_case.php	/^  protected function drupalLogout() {$/;"	f
+drupalPost	simpletest/drupal_web_test_case.php	/^  protected function drupalPost($path, $edit, $submit, array $options = array(), array $headers = array(), $form_html_id = NULL, $extra_post = NULL) {$/;"	f
+drupalPostAJAX	simpletest/drupal_web_test_case.php	/^  protected function drupalPostAJAX($path, $edit, $triggering_element, $ajax_path = NULL, array $options = array(), array $headers = array(), $form_html_id = NULL, $ajax_settings = NULL) {$/;"	f
+drupalSetContent	simpletest/drupal_web_test_case.php	/^  protected function drupalSetContent($content, $url = 'internal:') {$/;"	f
+drupalSetSettings	simpletest/drupal_web_test_case.php	/^  protected function drupalSetSettings($settings) {$/;"	f
+drupalSettings	simpletest/drupal_web_test_case.php	/^      $this->drupalSettings = drupal_json_decode($matches[1]);$/;"	v
+drupalSettings	simpletest/drupal_web_test_case.php	/^    $this->drupalSettings = $settings;$/;"	v
+drupalSettings	simpletest/drupal_web_test_case.php	/^    $this->drupalSettings = array();$/;"	v
+drupalSettings	simpletest/drupal_web_test_case.php	/^  protected $drupalSettings;$/;"	v
+drupal_settings	simpletest/drupal_web_test_case.php	/^            $drupal_settings = drupal_array_merge_deep($drupal_settings, $command['settings']);$/;"	v
+drupal_settings	simpletest/drupal_web_test_case.php	/^    $drupal_settings = $this->drupalSettings;$/;"	v
+edit	block/block.api.php	/^function hook_block_save($delta = '', $edit = array()) {$/;"	v
+edit	simpletest/drupal_web_test_case.php	/^        $edit = $edit_save;$/;"	v
+edit	simpletest/drupal_web_test_case.php	/^    $edit = array($/;"	v
+edit	simpletest/drupal_web_test_case.php	/^    $edit = array();$/;"	v
+edit	simpletest/drupal_web_test_case.php	/^   *   $edit = array();$/;"	v
+edit	simpletest/drupal_web_test_case.php	/^   *   $edit = array(...);$/;"	v
+edit_save	simpletest/drupal_web_test_case.php	/^      $edit_save = $edit;$/;"	v
+effects	image/image.api.php	/^  $effects = array();$/;"	v
+element	field/field.api.php	/^    $element = &$output[$field_name];$/;"	v
+element	field/field.api.php	/^  $element = array();$/;"	v
+element	field_ui/field_ui.api.php	/^  $element = array();$/;"	v
+element	simpletest/drupal_web_test_case.php	/^      $element = $this->xpath($xpath);$/;"	v
+element	system/theme.api.php	/^    $element = $variables[$key];$/;"	v
+element_id	simpletest/drupal_web_test_case.php	/^      $element_id = (string) $element[0]['id'];$/;"	v
+elements	filter/filter.api.php	/^  $elements = array();$/;"	v
+elements	simpletest/drupal_web_test_case.php	/^        $this->elements = simplexml_import_dom($htmlDom);$/;"	v
+elements	simpletest/drupal_web_test_case.php	/^    $elements = $form->xpath('.\/\/input[not(@disabled)]|.\/\/textarea[not(@disabled)]|.\/\/select[not(@disabled)]');$/;"	v
+elements	simpletest/drupal_web_test_case.php	/^    $elements = $this->xpath('\/\/input[@id=:id]', array(':id' => $id));$/;"	v
+elements	simpletest/drupal_web_test_case.php	/^    $elements = $this->xpath('\/\/select[@id=:id]\/\/option[@value=:option]', array(':id' => $id, ':option' => $option));$/;"	v
+elements	simpletest/drupal_web_test_case.php	/^    $this->elements = FALSE;$/;"	v
+elements	simpletest/drupal_web_test_case.php	/^  protected $elements = NULL;$/;"	v
+email	simpletest/drupal_web_test_case.php	/^    $email = end($captured_emails);$/;"	v
+emailCount	simpletest/drupal_web_test_case.php	/^    $emailCount = count(variable_get('drupal_test_email_collector', array()));$/;"	v
+end	system/system.api.php	/^    $end = end($active_trail);$/;"	v
+entity	system/system.api.php	/^    $entity = $params['entity'];$/;"	v
+entity_base_table	field/field.api.php	/^    $entity_base_table = _field_sql_storage_query_join_entity($select_query, $entity_type, $field_base_table);$/;"	v
+entity_type	field/field.api.php	/^    $entity_type = $query->entityConditions['entity_type']['value'];$/;"	v
+entity_type	field/field.api.php	/^  if (variable_get('taxonomy_maintain_index_table', TRUE) && $field['storage']['type'] == 'field_sql_storage' && $entity_type == 'node' && $entity->status) {$/;"	v
+entity_type	field/field.api.php	/^  if (variable_get('taxonomy_maintain_index_table', TRUE) && $field['storage']['type'] == 'field_sql_storage' && $entity_type == 'node') {$/;"	v
+error	simpletest/drupal_web_test_case.php	/^  protected function error($message = '', $group = 'Other', array $caller = NULL) {$/;"	f
+errorHandler	simpletest/drupal_web_test_case.php	/^  public function errorHandler($severity, $message, $file = NULL, $line = NULL) {$/;"	f
+error_map	simpletest/drupal_web_test_case.php	/^      $error_map = array($/;"	v
+error_operation	system/form.api.php	/^    $error_operation = reset($operations);$/;"	v
+errors	system/system.api.php	/^  $errors = array();$/;"	v
+errors	update/update.api.php	/^  $errors = array();$/;"	v
+exceptionHandler	simpletest/drupal_web_test_case.php	/^  protected function exceptionHandler($exception) {$/;"	f
+expires	system/system.api.php	/^  $expires = variable_get('mymodule_cron_last_run', REQUEST_TIME);$/;"	v
+explaining	simpletest/drupal_web_test_case.php	/^   *   it should add a "todo" comment above the call to this function explaining$/;"	f
+extra	search/search.api.php	/^    $extra = module_invoke_all('node_search_result', $node);$/;"	v
+extra	search/search.api.php	/^    $extra = module_invoke_all('node_update_index', $node);$/;"	v
+extra_post	simpletest/drupal_web_test_case.php	/^    $extra_post = '';$/;"	v
+extra_weights	field/field.api.php	/^    $extra_weights = variable_get('field_extra_weights', array());$/;"	v
+extra_weights	field/field.api.php	/^  $extra_weights = variable_get('field_extra_weights', array());$/;"	v
+fail	simpletest/drupal_web_test_case.php	/^  protected function fail($message = NULL, $group = 'Other') {$/;"	f
+fallback_candidates	system/language.api.php	/^  $fallback_candidates = array_reverse($fallback_candidates);$/;"	v
+field	field/field.api.php	/^      $field = $specifier['field'];$/;"	v
+field	field/field.api.php	/^      $field = field_info_field_by_id($field_id);$/;"	v
+field	field/field.api.php	/^      $field = field_info_field_by_id($instance['field_id']);$/;"	v
+field	field/field.api.php	/^    $field = $condition['field'];$/;"	v
+field	field/field.api.php	/^    $field = field_info_field_by_id($field_id);$/;"	v
+field	field/field.api.php	/^  $field = $context['field'];$/;"	v
+field	field/field.api.php	/^  $field = field_info_field($instance['field_name']);$/;"	v
+field	simpletest/drupal_web_test_case.php	/^          elseif ((string) $field == $value) {$/;"	v
+field_base_table	field/field.api.php	/^      $field_base_table = $table_alias;$/;"	v
+field_id	field/field.api.php	/^  foreach ($fields as $field_id => $ids) {$/;"	v
+field_languages	field/field.api.php	/^    $field_languages = array_intersect($all_languages, array_keys((array) $entity->$field_name));$/;"	v
+field_name	field/field.api.php	/^    $field_name = $field['field_name'];$/;"	v
+field_name	field/field.api.php	/^  $field_name = $field['field_name'];$/;"	v
+field_type	field/field.api.php	/^  foreach ($info as $field_type => $field_type_info) {$/;"	v
+fields	simpletest/drupal_web_test_case.php	/^    $fields = $this->xpath($xpath);$/;"	v
+file	simpletest/drupal_web_test_case.php	/^              $file = drupal_realpath($file);$/;"	v
+file	simpletest/drupal_web_test_case.php	/^  public function errorHandler($severity, $message, $file = NULL, $line = NULL) {$/;"	v
+file_directory	simpletest/drupal_web_test_case.php	/^    $file_directory = $original_file_directory;$/;"	v
+file_directory	simpletest/drupal_web_test_case.php	/^  static $file_directory = NULL, $class = NULL, $id = 1, $verbose = NULL;$/;"	v
+file_user	system/system.api.php	/^  $file_user = user_load($file->uid);$/;"	v
+files	simpletest/drupal_web_test_case.php	/^      $files = file_scan_directory($original, '\/(html|image|javascript|php|sql)-.*\/');$/;"	v
+files	simpletest/drupal_web_test_case.php	/^      $files = file_scan_directory('public:\/\/', '\/' . $type . '\\-.*\/');$/;"	v
+files	simpletest/drupal_web_test_case.php	/^    $files = array();$/;"	v
+filtered_emails	simpletest/drupal_web_test_case.php	/^    $filtered_emails = array();$/;"	v
+find	search/search.api.php	/^  $find = $query$/;"	v
+first	simpletest/drupal_web_test_case.php	/^                $first = FALSE;$/;"	v
+first	simpletest/drupal_web_test_case.php	/^            $first = TRUE;$/;"	v
+first	simpletest/drupal_web_test_case.php	/^          $first = FALSE;$/;"	v
+first	simpletest/drupal_web_test_case.php	/^      $first = TRUE;$/;"	v
+first	system/system.api.php	/^ * This hook is invoked when someone calls token_replace(). That function first$/;"	f
+first	system/system.api.php	/^ * passed to the callback function first, followed by the optional path$/;"	f
+first_call	field/field.api.php	/^    $first_call = &drupal_static(__FUNCTION__, array());$/;"	v
+first_call	field/field.api.php	/^  $first_call = &drupal_static(__FUNCTION__, array());$/;"	v
+first_occurance	simpletest/drupal_web_test_case.php	/^    $first_occurance = strpos($this->plainTextContent, $text);$/;"	v
+foo_update_7000	system/system.api.php	/^ * function foo_update_7000() {$/;"	f
+foo_update_7010	system/system.api.php	/^ * function foo_update_7010() {$/;"	f
+foo_update_7036	system/system.api.php	/^ * function foo_update_7036() {$/;"	f
+foo_update_dependencies	system/system.api.php	/^ * function foo_update_dependencies() {$/;"	f
+for	field/field.api.php	/^      \/\/ More elaborate formatters can defer to a theme function for easier$/;"	f
+for	filter/filter.api.php	/^ * the 'prepare callback' function for every filter. The purpose of the 'prepare$/;"	f
+for	simpletest/drupal_web_test_case.php	/^                \/\/ Use the new CurlFile class for file uploads when using PHP$/;"	c
+for	simpletest/drupal_web_test_case.php	/^ * Base class for Drupal tests.$/;"	c
+for	system/system.api.php	/^      return '<p>' . t('Blocks are boxes of content rendered into an area, or region, of a web page. The default theme Bartik, for example, implements the regions "Sidebar first", "Sidebar second", "Featured", "Content", "Header", "Footer", etc., and a block may appear in any one of these areas. The <a href="@blocks">blocks administration page<\/a> provides a drag-and-drop interface for assigning a block to a region, and for controlling the order of blocks within regions.', array('@blocks' => url('admin\/structure\/block'))) . '<\/p>';$/;"	i
+for	system/system.api.php	/^      return '<p>' . t('This page provides a drag-and-drop interface for assigning a block to a region, and for controlling the order of blocks within regions. Since not all themes implement the same regions, or display regions in the same way, blocks are positioned on a per-theme basis. Remember that your changes will not be saved until you click the <em>Save blocks<\/em> button at the bottom of the page.') . '<\/p>';$/;"	i
+for	system/system.api.php	/^  \/\/ Set the controller class for nodes to an alternate implementation of the$/;"	c
+for	system/system.api.php	/^ *     through the t() function for translation.$/;"	f
+for	system/system.api.php	/^ *   - A descriptive help string, enclosed in a t() function for translation$/;"	f
+for	system/system.api.php	/^ * - class: The name of the PHP class for this archiver.$/;"	c
+for	system/system.api.php	/^ * allows you to re-use a callback function for several different paths. For$/;"	f
+for	system/system.api.php	/^ * example, the node_load() function for the 'node\/%node\/edit' menu item will$/;"	f
+for	system/system.api.php	/^ * interface for associating actions with module-defined triggers, and it makes$/;"	i
+forced	simpletest/drupal_web_test_case.php	/^    $forced = array($/;"	v
+form	block/block.api.php	/^  $form = array();$/;"	v
+format_id	field/field.api.php	/^  $format_id = $source_entity->{$field_name}[$source_langcode][0]['format'];$/;"	v
+formats	field/field.api.php	/^  $formats = filter_formats();$/;"	v
+forms	simpletest/drupal_web_test_case.php	/^      $forms = $this->xpath($xpath);$/;"	v
+found	field/field.api.php	/^    $found = $query$/;"	v
+found	simpletest/drupal_web_test_case.php	/^                $found = TRUE;$/;"	v
+found	simpletest/drupal_web_test_case.php	/^              $found = TRUE;$/;"	v
+found	simpletest/drupal_web_test_case.php	/^            $found = TRUE;$/;"	v
+found	simpletest/drupal_web_test_case.php	/^      $found = FALSE;$/;"	v
+found	simpletest/drupal_web_test_case.php	/^    $found = TRUE;$/;"	v
+from	system/system.api.php	/^ * In order to call a function from your mymodule.module or an include file,$/;"	f
+generatePermutations	simpletest/drupal_web_test_case.php	/^  public static function generatePermutations($parameters) {$/;"	f
+generatedTestFiles	simpletest/drupal_web_test_case.php	/^      $this->generatedTestFiles = TRUE;$/;"	v
+generatedTestFiles	simpletest/drupal_web_test_case.php	/^    $this->generatedTestFiles = FALSE;$/;"	v
+generatedTestFiles	simpletest/drupal_web_test_case.php	/^  protected $generatedTestFiles = FALSE;$/;"	v
+getAbsoluteUrl	simpletest/drupal_web_test_case.php	/^  protected function getAbsoluteUrl($path) {$/;"	f
+getAllOptions	simpletest/drupal_web_test_case.php	/^  protected function getAllOptions(SimpleXMLElement $element) {$/;"	f
+getAssertionCall	simpletest/drupal_web_test_case.php	/^  protected function getAssertionCall() {$/;"	f
+getDatabaseConnection	simpletest/drupal_web_test_case.php	/^  public static function getDatabaseConnection() {$/;"	f
+getInfo	simpletest/lib/Drupal/simpletest/Tests/PSR0WebTest.php	/^  public static function getInfo() {$/;"	f
+getInfo	simpletest/src/Tests/PSR4WebTest.php	/^  public static function getInfo() {$/;"	f
+getInfo	simpletest/tests/psr_0_test/lib/Drupal/psr_0_test/Tests/ExampleTest.php	/^  public static function getInfo() {$/;"	f
+getInfo	simpletest/tests/psr_0_test/lib/Drupal/psr_0_test/Tests/Nested/NestedExampleTest.php	/^  public static function getInfo() {$/;"	f
+getInfo	simpletest/tests/psr_4_test/src/Tests/ExampleTest.php	/^  public static function getInfo() {$/;"	f
+getInfo	simpletest/tests/psr_4_test/src/Tests/Nested/NestedExampleTest.php	/^  public static function getInfo() {$/;"	f
+getSelectedItem	simpletest/drupal_web_test_case.php	/^  protected function getSelectedItem(SimpleXMLElement $element) {$/;"	f
+getUrl	simpletest/drupal_web_test_case.php	/^  protected function getUrl() {$/;"	f
+grants	file/file.api.php	/^    $grants = array('node' => $grants['node']);$/;"	v
+grants	node/node.api.php	/^        $grants = array();$/;"	v
+grants	node/node.api.php	/^    $grants = array('example' => $temp);$/;"	v
+grants	node/node.api.php	/^    $grants = array();$/;"	v
+group	simpletest/drupal_web_test_case.php	/^  protected function assertNoDuplicateIds($message = '', $group = 'Other', $ids_to_skip = array()) {$/;"	v
+group	simpletest/drupal_web_test_case.php	/^  protected function error($message = '', $group = 'Other', array $caller = NULL) {$/;"	v
+group	simpletest/drupal_web_test_case.php	/^  protected function fail($message = NULL, $group = 'Other') {$/;"	v
+group	simpletest/drupal_web_test_case.php	/^  protected function pass($message = NULL, $group = 'Other') {$/;"	v
+group	system/system.api.php	/^    $group = $implementations['my_module'];$/;"	v
+group_name	field/field.api.php	/^        $group_name = $condition[$column . '_group'];$/;"	v
+groups	field/field.api.php	/^  $groups = array();$/;"	v
+handleForm	simpletest/drupal_web_test_case.php	/^  protected function handleForm(&$post, &$edit, &$upload, $submit, $form) {$/;"	f
+has	system/system.api.php	/^ *     The class has to implement the DrupalEntityControllerInterface interface.$/;"	c
+has_property_order	field/field.api.php	/^      $has_property_order = TRUE;$/;"	v
+has_property_order	field/field.api.php	/^  $has_property_order = FALSE;$/;"	v
+header	simpletest/drupal_web_test_case.php	/^          $header = $headers[$name];$/;"	v
+header	simpletest/drupal_web_test_case.php	/^        $header = $headers[$name];$/;"	v
+header	simpletest/drupal_web_test_case.php	/^      $header = trim($header);$/;"	v
+header	simpletest/drupal_web_test_case.php	/^    $header = FALSE;$/;"	v
+header	system/system.api.php	/^ * developers should usually be provided via function header comments in the$/;"	f
+headers	simpletest/drupal_web_test_case.php	/^      $headers = $this->drupalGetHeaders();$/;"	v
+headers	simpletest/drupal_web_test_case.php	/^      $headers = array_pop($headers);$/;"	v
+headers	simpletest/drupal_web_test_case.php	/^      $this->headers = array();$/;"	v
+headers	simpletest/drupal_web_test_case.php	/^    $headers = array($request => array());$/;"	v
+headers	simpletest/drupal_web_test_case.php	/^  protected $headers;$/;"	v
+hideEmailAdministratorCheckbox	system/system.js	/^(function ($) {$/;"	f
+hook_action_info	system/system.api.php	/^function hook_action_info() {$/;"	f
+hook_action_info_alter	system/system.api.php	/^function hook_action_info_alter(&$actions) {$/;"	f
+hook_actions_delete	system/system.api.php	/^function hook_actions_delete($aid) {$/;"	f
+hook_admin_paths	system/system.api.php	/^function hook_admin_paths() {$/;"	f
+hook_admin_paths_alter	system/system.api.php	/^function hook_admin_paths_alter(&$paths) {$/;"	f
+hook_aggregator_fetch	aggregator/aggregator.api.php	/^function hook_aggregator_fetch($feed) {$/;"	f
+hook_aggregator_fetch_info	aggregator/aggregator.api.php	/^function hook_aggregator_fetch_info() {$/;"	f
+hook_aggregator_parse	aggregator/aggregator.api.php	/^function hook_aggregator_parse($feed) {$/;"	f
+hook_aggregator_parse_info	aggregator/aggregator.api.php	/^function hook_aggregator_parse_info() {$/;"	f
+hook_aggregator_process	aggregator/aggregator.api.php	/^function hook_aggregator_process($feed) {$/;"	f
+hook_aggregator_process_info	aggregator/aggregator.api.php	/^function hook_aggregator_process_info() {$/;"	f
+hook_aggregator_remove	aggregator/aggregator.api.php	/^function hook_aggregator_remove($feed) {$/;"	f
+hook_ajax_render_alter	system/system.api.php	/^function hook_ajax_render_alter(&$commands) {$/;"	f
+hook_archiver_info	system/system.api.php	/^function hook_archiver_info() {$/;"	f
+hook_archiver_info_alter	system/system.api.php	/^function hook_archiver_info_alter(&$info) {$/;"	f
+hook_batch_alter	system/system.api.php	/^function hook_batch_alter(&$batch) {$/;"	f
+hook_block_cid_parts_alter	block/block.api.php	/^function hook_block_cid_parts_alter(&$cid_parts, $block) {$/;"	f
+hook_block_configure	block/block.api.php	/^function hook_block_configure($delta = '') {$/;"	f
+hook_block_info	block/block.api.php	/^function hook_block_info() {$/;"	f
+hook_block_info_alter	block/block.api.php	/^function hook_block_info_alter(&$blocks, $theme, $code_blocks) {$/;"	f
+hook_block_list_alter	block/block.api.php	/^function hook_block_list_alter(&$blocks) {$/;"	f
+hook_block_save	block/block.api.php	/^function hook_block_save($delta = '', $edit = array()) {$/;"	f
+hook_block_view	block/block.api.php	/^function hook_block_view($delta = '') {$/;"	f
+hook_block_view_MODULE_DELTA_alter	block/block.api.php	/^function hook_block_view_MODULE_DELTA_alter(&$data, $block) {$/;"	f
+hook_block_view_alter	block/block.api.php	/^function hook_block_view_alter(&$data, $block) {$/;"	f
+hook_boot	system/system.api.php	/^function hook_boot() {$/;"	f
+hook_comment_delete	comment/comment.api.php	/^function hook_comment_delete($comment) {$/;"	f
+hook_comment_insert	comment/comment.api.php	/^function hook_comment_insert($comment) {$/;"	f
+hook_comment_load	comment/comment.api.php	/^function hook_comment_load($comments) {$/;"	f
+hook_comment_presave	comment/comment.api.php	/^function hook_comment_presave($comment) {$/;"	f
+hook_comment_publish	comment/comment.api.php	/^function hook_comment_publish($comment) {$/;"	f
+hook_comment_unpublish	comment/comment.api.php	/^function hook_comment_unpublish($comment) {$/;"	f
+hook_comment_update	comment/comment.api.php	/^function hook_comment_update($comment) {$/;"	f
+hook_comment_view	comment/comment.api.php	/^function hook_comment_view($comment, $view_mode, $langcode) {$/;"	f
+hook_comment_view_alter	comment/comment.api.php	/^function hook_comment_view_alter(&$build) {$/;"	f
+hook_contextual_links_view_alter	contextual/contextual.api.php	/^function hook_contextual_links_view_alter(&$element, $items) {$/;"	f
+hook_countries_alter	system/system.api.php	/^function hook_countries_alter(&$countries) {$/;"	f
+hook_cron	system/system.api.php	/^function hook_cron() {$/;"	f
+hook_cron_queue_info	system/system.api.php	/^function hook_cron_queue_info() {$/;"	f
+hook_cron_queue_info_alter	system/system.api.php	/^function hook_cron_queue_info_alter(&$queues) {$/;"	f
+hook_css_alter	system/system.api.php	/^function hook_css_alter(&$css) {$/;"	f
+hook_custom_theme	system/system.api.php	/^function hook_custom_theme() {$/;"	f
+hook_dashboard_regions	dashboard/dashboard.api.php	/^function hook_dashboard_regions() {$/;"	f
+hook_dashboard_regions_alter	dashboard/dashboard.api.php	/^function hook_dashboard_regions_alter(&$regions) {$/;"	f
+hook_date_format_types	system/system.api.php	/^function hook_date_format_types() {$/;"	f
+hook_date_format_types_alter	system/system.api.php	/^function hook_date_format_types_alter(&$types) {$/;"	f
+hook_date_formats	system/system.api.php	/^function hook_date_formats() {$/;"	f
+hook_date_formats_alter	system/system.api.php	/^function hook_date_formats_alter(&$formats) {$/;"	f
+hook_delete	node/node.api.php	/^function hook_delete($node) {$/;"	f
+hook_disable	system/system.api.php	/^function hook_disable() {$/;"	f
+hook_drupal_goto_alter	system/system.api.php	/^function hook_drupal_goto_alter(&$path, &$options, &$http_response_code) {$/;"	f
+hook_element_info	system/system.api.php	/^function hook_element_info() {$/;"	f
+hook_element_info_alter	system/system.api.php	/^function hook_element_info_alter(&$type) {$/;"	f
+hook_enable	system/system.api.php	/^function hook_enable() {$/;"	f
+hook_entity_delete	system/system.api.php	/^function hook_entity_delete($entity, $type) {$/;"	f
+hook_entity_info	system/system.api.php	/^function hook_entity_info() {$/;"	f
+hook_entity_info_alter	system/system.api.php	/^function hook_entity_info_alter(&$entity_info) {$/;"	f
+hook_entity_insert	system/system.api.php	/^function hook_entity_insert($entity, $type) {$/;"	f
+hook_entity_load	system/system.api.php	/^function hook_entity_load($entities, $type) {$/;"	f
+hook_entity_prepare_view	system/system.api.php	/^function hook_entity_prepare_view($entities, $type, $langcode) {$/;"	f
+hook_entity_presave	system/system.api.php	/^function hook_entity_presave($entity, $type) {$/;"	f
+hook_entity_query_alter	system/system.api.php	/^function hook_entity_query_alter($query) {$/;"	f
+hook_entity_update	system/system.api.php	/^function hook_entity_update($entity, $type) {$/;"	f
+hook_entity_view	system/system.api.php	/^function hook_entity_view($entity, $type, $view_mode, $langcode) {$/;"	f
+hook_entity_view_alter	system/system.api.php	/^function hook_entity_view_alter(&$build, $type) {$/;"	f
+hook_entity_view_mode_alter	system/system.api.php	/^function hook_entity_view_mode_alter(&$view_mode, $context) {$/;"	f
+hook_exit	system/system.api.php	/^function hook_exit($destination = NULL) {$/;"	f
+hook_field_access	field/field.api.php	/^function hook_field_access($op, $field, $entity_type, $entity, $account) {$/;"	f
+hook_field_attach_create_bundle	field/field.api.php	/^function hook_field_attach_create_bundle($entity_type, $bundle) {$/;"	f
+hook_field_attach_delete	field/field.api.php	/^function hook_field_attach_delete($entity_type, $entity) {$/;"	f
+hook_field_attach_delete_bundle	field/field.api.php	/^function hook_field_attach_delete_bundle($entity_type, $bundle, $instances) {$/;"	f
+hook_field_attach_delete_revision	field/field.api.php	/^function hook_field_attach_delete_revision($entity_type, $entity) {$/;"	f
+hook_field_attach_form	field/field.api.php	/^function hook_field_attach_form($entity_type, $entity, &$form, &$form_state, $langcode) {$/;"	f
+hook_field_attach_insert	field/field.api.php	/^function hook_field_attach_insert($entity_type, $entity) {$/;"	f
+hook_field_attach_load	field/field.api.php	/^function hook_field_attach_load($entity_type, $entities, $age, $options) {$/;"	f
+hook_field_attach_prepare_translation_alter	field/field.api.php	/^function hook_field_attach_prepare_translation_alter(&$entity, $context) {$/;"	f
+hook_field_attach_preprocess_alter	field/field.api.php	/^function hook_field_attach_preprocess_alter(&$variables, $context) {$/;"	f
+hook_field_attach_presave	field/field.api.php	/^function hook_field_attach_presave($entity_type, $entity) {$/;"	f
+hook_field_attach_purge	field/field.api.php	/^function hook_field_attach_purge($entity_type, $entity, $field, $instance) {$/;"	f
+hook_field_attach_rename_bundle	field/field.api.php	/^function hook_field_attach_rename_bundle($entity_type, $bundle_old, $bundle_new) {$/;"	f
+hook_field_attach_submit	field/field.api.php	/^function hook_field_attach_submit($entity_type, $entity, $form, &$form_state) {$/;"	f
+hook_field_attach_update	field/field.api.php	/^function hook_field_attach_update($entity_type, $entity) {$/;"	f
+hook_field_attach_validate	field/field.api.php	/^function hook_field_attach_validate($entity_type, $entity, &$errors) {$/;"	f
+hook_field_attach_view_alter	field/field.api.php	/^function hook_field_attach_view_alter(&$output, $context) {$/;"	f
+hook_field_available_languages_alter	field/field.api.php	/^function hook_field_available_languages_alter(&$languages, $context) {$/;"	f
+hook_field_create_field	field/field.api.php	/^function hook_field_create_field($field) {$/;"	f
+hook_field_create_instance	field/field.api.php	/^function hook_field_create_instance($instance) {$/;"	f
+hook_field_delete	field/field.api.php	/^function hook_field_delete($entity_type, $entity, $field, $instance, $langcode, &$items) {$/;"	f
+hook_field_delete_field	field/field.api.php	/^function hook_field_delete_field($field) {$/;"	f
+hook_field_delete_instance	field/field.api.php	/^function hook_field_delete_instance($instance) {$/;"	f
+hook_field_delete_revision	field/field.api.php	/^function hook_field_delete_revision($entity_type, $entity, $field, $instance, $langcode, &$items) {$/;"	f
+hook_field_display_ENTITY_TYPE_alter	field/field.api.php	/^function hook_field_display_ENTITY_TYPE_alter(&$display, $context) {$/;"	f
+hook_field_display_alter	field/field.api.php	/^function hook_field_display_alter(&$display, $context) {$/;"	f
+hook_field_extra_fields	field/field.api.php	/^function hook_field_extra_fields() {$/;"	f
+hook_field_extra_fields_alter	field/field.api.php	/^function hook_field_extra_fields_alter(&$info) {$/;"	f
+hook_field_extra_fields_display_alter	field/field.api.php	/^function hook_field_extra_fields_display_alter(&$displays, $context) {$/;"	f
+hook_field_formatter_info	field/field.api.php	/^function hook_field_formatter_info() {$/;"	f
+hook_field_formatter_info_alter	field/field.api.php	/^function hook_field_formatter_info_alter(&$info) {$/;"	f
+hook_field_formatter_prepare_view	field/field.api.php	/^function hook_field_formatter_prepare_view($entity_type, $entities, $field, $instances, $langcode, &$items, $displays) {$/;"	f
+hook_field_formatter_settings_form	field_ui/field_ui.api.php	/^function hook_field_formatter_settings_form($field, $instance, $view_mode, $form, &$form_state) {$/;"	f
+hook_field_formatter_settings_summary	field_ui/field_ui.api.php	/^function hook_field_formatter_settings_summary($field, $instance, $view_mode) {$/;"	f
+hook_field_formatter_view	field/field.api.php	/^function hook_field_formatter_view($entity_type, $entity, $field, $instance, $langcode, $items, $display) {$/;"	f
+hook_field_info	field/field.api.php	/^function hook_field_info() {$/;"	f
+hook_field_info_alter	field/field.api.php	/^function hook_field_info_alter(&$info) {$/;"	f
+hook_field_info_max_weight	field/field.api.php	/^function hook_field_info_max_weight($entity_type, $bundle, $context) {$/;"	f
+hook_field_insert	field/field.api.php	/^function hook_field_insert($entity_type, $entity, $field, $instance, $langcode, &$items) {$/;"	f
+hook_field_instance_settings_form	field_ui/field_ui.api.php	/^function hook_field_instance_settings_form($field, $instance) {$/;"	f
+hook_field_is_empty	field/field.api.php	/^function hook_field_is_empty($item, $field) {$/;"	f
+hook_field_language_alter	field/field.api.php	/^function hook_field_language_alter(&$display_language, $context) {$/;"	f
+hook_field_load	field/field.api.php	/^function hook_field_load($entity_type, $entities, $field, $instances, $langcode, &$items, $age) {$/;"	f
+hook_field_prepare_translation	field/field.api.php	/^function hook_field_prepare_translation($entity_type, $entity, $field, $instance, $langcode, &$items, $source_entity, $source_langcode) {$/;"	f
+hook_field_prepare_view	field/field.api.php	/^function hook_field_prepare_view($entity_type, $entities, $field, $instances, $langcode, &$items) {$/;"	f
+hook_field_presave	field/field.api.php	/^function hook_field_presave($entity_type, $entity, $field, $instance, $langcode, &$items) {$/;"	f
+hook_field_purge_field	field/field.api.php	/^function hook_field_purge_field($field) {$/;"	f
+hook_field_purge_instance	field/field.api.php	/^function hook_field_purge_instance($instance) {$/;"	f
+hook_field_read_field	field/field.api.php	/^function hook_field_read_field($field) {$/;"	f
+hook_field_read_instance	field/field.api.php	/^function hook_field_read_instance($instance) {$/;"	f
+hook_field_schema	field/field.api.php	/^function hook_field_schema($field) {$/;"	f
+hook_field_settings_form	field_ui/field_ui.api.php	/^function hook_field_settings_form($field, $instance, $has_data) {$/;"	f
+hook_field_storage_create_field	field/field.api.php	/^function hook_field_storage_create_field($field) {$/;"	f
+hook_field_storage_delete	field/field.api.php	/^function hook_field_storage_delete($entity_type, $entity, $fields) {$/;"	f
+hook_field_storage_delete_field	field/field.api.php	/^function hook_field_storage_delete_field($field) {$/;"	f
+hook_field_storage_delete_instance	field/field.api.php	/^function hook_field_storage_delete_instance($instance) {$/;"	f
+hook_field_storage_delete_revision	field/field.api.php	/^function hook_field_storage_delete_revision($entity_type, $entity, $fields) {$/;"	f
+hook_field_storage_details	field/field.api.php	/^function hook_field_storage_details($field) {$/;"	f
+hook_field_storage_details_alter	field/field.api.php	/^function hook_field_storage_details_alter(&$details, $field) {$/;"	f
+hook_field_storage_info	field/field.api.php	/^function hook_field_storage_info() {$/;"	f
+hook_field_storage_info_alter	field/field.api.php	/^function hook_field_storage_info_alter(&$info) {$/;"	f
+hook_field_storage_load	field/field.api.php	/^function hook_field_storage_load($entity_type, $entities, $age, $fields, $options) {$/;"	f
+hook_field_storage_pre_insert	field/field.api.php	/^function hook_field_storage_pre_insert($entity_type, $entity, &$skip_fields) {$/;"	f
+hook_field_storage_pre_load	field/field.api.php	/^function hook_field_storage_pre_load($entity_type, $entities, $age, &$skip_fields, $options) {$/;"	f
+hook_field_storage_pre_update	field/field.api.php	/^function hook_field_storage_pre_update($entity_type, $entity, &$skip_fields) {$/;"	f
+hook_field_storage_purge	field/field.api.php	/^function hook_field_storage_purge($entity_type, $entity, $field, $instance) {$/;"	f
+hook_field_storage_purge_field	field/field.api.php	/^function hook_field_storage_purge_field($field) {$/;"	f
+hook_field_storage_purge_field_instance	field/field.api.php	/^function hook_field_storage_purge_field_instance($instance) {$/;"	f
+hook_field_storage_query	field/field.api.php	/^function hook_field_storage_query($query) {$/;"	f
+hook_field_storage_update_field	field/field.api.php	/^function hook_field_storage_update_field($field, $prior_field, $has_data) {$/;"	f
+hook_field_storage_write	field/field.api.php	/^function hook_field_storage_write($entity_type, $entity, $op, $fields) {$/;"	f
+hook_field_update	field/field.api.php	/^function hook_field_update($entity_type, $entity, $field, $instance, $langcode, &$items) {$/;"	f
+hook_field_update_field	field/field.api.php	/^function hook_field_update_field($field, $prior_field, $has_data) {$/;"	f
+hook_field_update_forbid	field/field.api.php	/^function hook_field_update_forbid($field, $prior_field, $has_data) {$/;"	f
+hook_field_update_instance	field/field.api.php	/^function hook_field_update_instance($instance, $prior_instance) {$/;"	f
+hook_field_validate	field/field.api.php	/^function hook_field_validate($entity_type, $entity, $field, $instance, $langcode, $items, &$errors) {$/;"	f
+hook_field_widget_WIDGET_TYPE_form_alter	field/field.api.php	/^function hook_field_widget_WIDGET_TYPE_form_alter(&$element, &$form_state, $context) {$/;"	f
+hook_field_widget_error	field/field.api.php	/^function hook_field_widget_error($element, $error, $form, &$form_state) {$/;"	f
+hook_field_widget_form	field/field.api.php	/^function hook_field_widget_form(&$form, &$form_state, $field, $instance, $langcode, $items, $delta, $element) {$/;"	f
+hook_field_widget_form_alter	field/field.api.php	/^function hook_field_widget_form_alter(&$element, &$form_state, $context) {$/;"	f
+hook_field_widget_info	field/field.api.php	/^function hook_field_widget_info() {$/;"	f
+hook_field_widget_info_alter	field/field.api.php	/^function hook_field_widget_info_alter(&$info) {$/;"	f
+hook_field_widget_properties_ENTITY_TYPE_alter	field/field.api.php	/^function hook_field_widget_properties_ENTITY_TYPE_alter(&$widget, $context) {$/;"	f
+hook_field_widget_properties_alter	field/field.api.php	/^function hook_field_widget_properties_alter(&$widget, $context) {$/;"	f
+hook_field_widget_settings_form	field_ui/field_ui.api.php	/^function hook_field_widget_settings_form($field, $instance) {$/;"	f
+hook_file_copy	system/system.api.php	/^function hook_file_copy($file, $source) {$/;"	f
+hook_file_delete	system/system.api.php	/^function hook_file_delete($file) {$/;"	f
+hook_file_download	system/system.api.php	/^function hook_file_download($uri) {$/;"	f
+hook_file_download_access	file/file.api.php	/^function hook_file_download_access($file_item, $entity_type, $entity) {$/;"	f
+hook_file_download_access_alter	file/file.api.php	/^function hook_file_download_access_alter(&$grants, $file_item, $entity_type, $entity) {$/;"	f
+hook_file_insert	system/system.api.php	/^function hook_file_insert($file) {$/;"	f
+hook_file_load	system/system.api.php	/^function hook_file_load($files) {$/;"	f
+hook_file_mimetype_mapping_alter	system/system.api.php	/^function hook_file_mimetype_mapping_alter(&$mapping) {$/;"	f
+hook_file_move	system/system.api.php	/^function hook_file_move($file, $source) {$/;"	f
+hook_file_presave	system/system.api.php	/^function hook_file_presave($file) {$/;"	f
+hook_file_update	system/system.api.php	/^function hook_file_update($file) {$/;"	f
+hook_file_url_alter	system/system.api.php	/^function hook_file_url_alter(&$uri) {$/;"	f
+hook_file_validate	system/system.api.php	/^function hook_file_validate($file) {$/;"	f
+hook_filetransfer_info	system/system.api.php	/^function hook_filetransfer_info() {$/;"	f
+hook_filetransfer_info_alter	system/system.api.php	/^function hook_filetransfer_info_alter(&$filetransfer_info) {$/;"	f
+hook_filter_format_disable	filter/filter.api.php	/^function hook_filter_format_disable($format) {$/;"	f
+hook_filter_format_insert	filter/filter.api.php	/^function hook_filter_format_insert($format) {$/;"	f
+hook_filter_format_update	filter/filter.api.php	/^function hook_filter_format_update($format) {$/;"	f
+hook_filter_info	filter/filter.api.php	/^function hook_filter_info() {$/;"	f
+hook_filter_info_alter	filter/filter.api.php	/^function hook_filter_info_alter(&$info) {$/;"	f
+hook_flush_caches	system/system.api.php	/^function hook_flush_caches() {$/;"	f
+hook_form	node/node.api.php	/^function hook_form($node, &$form_state) {$/;"	f
+hook_form_BASE_FORM_ID_alter	system/system.api.php	/^function hook_form_BASE_FORM_ID_alter(&$form, &$form_state, $form_id) {$/;"	f
+hook_form_FORM_ID_alter	system/system.api.php	/^function hook_form_FORM_ID_alter(&$form, &$form_state, $form_id) {$/;"	f
+hook_form_alter	system/system.api.php	/^function hook_form_alter(&$form, &$form_state, $form_id) {$/;"	f
+hook_form_system_theme_settings_alter	system/theme.api.php	/^function hook_form_system_theme_settings_alter(&$form, &$form_state) {$/;"	f
+hook_forms	system/system.api.php	/^function hook_forms($form_id, $args) {$/;"	f
+hook_help	system/system.api.php	/^function hook_help($path, $arg) {$/;"	f
+hook_hook_info	system/system.api.php	/^function hook_hook_info() {$/;"	f
+hook_hook_info_alter	system/system.api.php	/^function hook_hook_info_alter(&$hooks) {$/;"	f
+hook_html_head_alter	system/system.api.php	/^function hook_html_head_alter(&$head_elements) {$/;"	f
+hook_image_default_styles	image/image.api.php	/^function hook_image_default_styles() {$/;"	f
+hook_image_effect_info	image/image.api.php	/^function hook_image_effect_info() {$/;"	f
+hook_image_effect_info_alter	image/image.api.php	/^function hook_image_effect_info_alter(&$effects) {$/;"	f
+hook_image_style_delete	image/image.api.php	/^function hook_image_style_delete($style) {$/;"	f
+hook_image_style_flush	image/image.api.php	/^function hook_image_style_flush($style) {$/;"	f
+hook_image_style_save	image/image.api.php	/^function hook_image_style_save($style) {$/;"	f
+hook_image_styles_alter	image/image.api.php	/^function hook_image_styles_alter(&$styles) {$/;"	f
+hook_image_toolkits	system/system.api.php	/^function hook_image_toolkits() {$/;"	f
+hook_init	system/system.api.php	/^function hook_init() {$/;"	f
+hook_insert	node/node.api.php	/^function hook_insert($node) {$/;"	f
+hook_install	system/system.api.php	/^function hook_install() {$/;"	f
+hook_install_tasks	system/system.api.php	/^function hook_install_tasks(&$install_state) {$/;"	f
+hook_install_tasks_alter	system/system.api.php	/^function hook_install_tasks_alter(&$tasks, $install_state) {$/;"	f
+hook_js_alter	system/system.api.php	/^function hook_js_alter(&$javascript) {$/;"	f
+hook_language_fallback_candidates_alter	system/language.api.php	/^function hook_language_fallback_candidates_alter(array &$fallback_candidates) {$/;"	f
+hook_language_init	system/language.api.php	/^function hook_language_init() {$/;"	f
+hook_language_negotiation_info	system/language.api.php	/^function hook_language_negotiation_info() {$/;"	f
+hook_language_negotiation_info_alter	system/language.api.php	/^function hook_language_negotiation_info_alter(array &$language_providers) {$/;"	f
+hook_language_switch_links_alter	system/language.api.php	/^function hook_language_switch_links_alter(array &$links, $type, $path) {$/;"	f
+hook_language_types_info	system/language.api.php	/^function hook_language_types_info() {$/;"	f
+hook_language_types_info_alter	system/language.api.php	/^function hook_language_types_info_alter(array &$language_types) {$/;"	f
+hook_library	system/system.api.php	/^function hook_library() {$/;"	f
+hook_library_alter	system/system.api.php	/^function hook_library_alter(&$libraries, $module) {$/;"	f
+hook_load	node/node.api.php	/^function hook_load($nodes) {$/;"	f
+hook_locale	locale/locale.api.php	/^function hook_locale($op = 'groups') {$/;"	f
+hook_mail	system/system.api.php	/^function hook_mail($key, &$message, $params) {$/;"	f
+hook_mail_alter	system/system.api.php	/^function hook_mail_alter(&$message) {$/;"	f
+hook_menu	system/system.api.php	/^function hook_menu() {$/;"	f
+hook_menu_alter	system/system.api.php	/^function hook_menu_alter(&$items) {$/;"	f
+hook_menu_breadcrumb_alter	system/system.api.php	/^function hook_menu_breadcrumb_alter(&$active_trail, $item) {$/;"	f
+hook_menu_contextual_links_alter	system/system.api.php	/^function hook_menu_contextual_links_alter(&$links, $router_item, $root_path) {$/;"	f
+hook_menu_delete	menu/menu.api.php	/^function hook_menu_delete($menu) {$/;"	f
+hook_menu_get_item_alter	system/system.api.php	/^function hook_menu_get_item_alter(&$router_item, $path, $original_map) {$/;"	f
+hook_menu_insert	menu/menu.api.php	/^function hook_menu_insert($menu) {$/;"	f
+hook_menu_link_alter	system/system.api.php	/^function hook_menu_link_alter(&$item) {$/;"	f
+hook_menu_link_delete	system/system.api.php	/^function hook_menu_link_delete($link) {$/;"	f
+hook_menu_link_insert	system/system.api.php	/^function hook_menu_link_insert($link) {$/;"	f
+hook_menu_link_update	system/system.api.php	/^function hook_menu_link_update($link) {$/;"	f
+hook_menu_local_tasks_alter	system/system.api.php	/^function hook_menu_local_tasks_alter(&$data, $router_item, $root_path) {$/;"	f
+hook_menu_site_status_alter	system/system.api.php	/^function hook_menu_site_status_alter(&$menu_site_status, $path) {$/;"	f
+hook_menu_update	menu/menu.api.php	/^function hook_menu_update($menu) {$/;"	f
+hook_module_implements_alter	system/system.api.php	/^function hook_module_implements_alter(&$implementations, $hook) {$/;"	f
+hook_modules_disabled	system/system.api.php	/^function hook_modules_disabled($modules) {$/;"	f
+hook_modules_enabled	system/system.api.php	/^function hook_modules_enabled($modules) {$/;"	f
+hook_modules_installed	system/system.api.php	/^function hook_modules_installed($modules) {$/;"	f
+hook_modules_uninstalled	system/system.api.php	/^function hook_modules_uninstalled($modules) {$/;"	f
+hook_multilingual_settings_changed	locale/locale.api.php	/^function hook_multilingual_settings_changed() {$/;"	f
+hook_node_access	node/node.api.php	/^function hook_node_access($node, $op, $account) {$/;"	f
+hook_node_access_records	node/node.api.php	/^function hook_node_access_records($node) {$/;"	f
+hook_node_access_records_alter	node/node.api.php	/^function hook_node_access_records_alter(&$grants, $node) {$/;"	f
+hook_node_delete	node/node.api.php	/^function hook_node_delete($node) {$/;"	f
+hook_node_grants	node/node.api.php	/^function hook_node_grants($account, $op) {$/;"	f
+hook_node_grants_alter	node/node.api.php	/^function hook_node_grants_alter(&$grants, $account, $op) {$/;"	f
+hook_node_info	node/node.api.php	/^function hook_node_info() {$/;"	f
+hook_node_insert	node/node.api.php	/^function hook_node_insert($node) {$/;"	f
+hook_node_load	node/node.api.php	/^function hook_node_load($nodes, $types) {$/;"	f
+hook_node_operations	node/node.api.php	/^function hook_node_operations() {$/;"	f
+hook_node_prepare	node/node.api.php	/^function hook_node_prepare($node) {$/;"	f
+hook_node_presave	node/node.api.php	/^function hook_node_presave($node) {$/;"	f
+hook_node_revision_delete	node/node.api.php	/^function hook_node_revision_delete($node) {$/;"	f
+hook_node_search_result	node/node.api.php	/^function hook_node_search_result($node) {$/;"	f
+hook_node_submit	node/node.api.php	/^function hook_node_submit($node, $form, &$form_state) {$/;"	f
+hook_node_type_delete	node/node.api.php	/^function hook_node_type_delete($info) {$/;"	f
+hook_node_type_insert	node/node.api.php	/^function hook_node_type_insert($info) {$/;"	f
+hook_node_type_update	node/node.api.php	/^function hook_node_type_update($info) {$/;"	f
+hook_node_update	node/node.api.php	/^function hook_node_update($node) {$/;"	f
+hook_node_update_index	node/node.api.php	/^function hook_node_update_index($node) {$/;"	f
+hook_node_validate	node/node.api.php	/^function hook_node_validate($node, $form, &$form_state) {$/;"	f
+hook_node_view	node/node.api.php	/^function hook_node_view($node, $view_mode, $langcode) {$/;"	f
+hook_node_view_alter	node/node.api.php	/^function hook_node_view_alter(&$build) {$/;"	f
+hook_openid	openid/openid.api.php	/^function hook_openid($op, $request) {$/;"	f
+hook_openid_discovery_method_info	openid/openid.api.php	/^function hook_openid_discovery_method_info() {$/;"	f
+hook_openid_discovery_method_info_alter	openid/openid.api.php	/^function hook_openid_discovery_method_info_alter(&$methods) {$/;"	f
+hook_openid_normalization_method_info	openid/openid.api.php	/^function hook_openid_normalization_method_info() {$/;"	f
+hook_openid_normalization_method_info_alter	openid/openid.api.php	/^function hook_openid_normalization_method_info_alter(&$methods) {$/;"	f
+hook_openid_response	openid/openid.api.php	/^function hook_openid_response($response, $account) {$/;"	f
+hook_options_list	field/modules/options/options.api.php	/^function hook_options_list($field, $instance, $entity_type, $entity) {$/;"	f
+hook_overlay_child_initialize	overlay/overlay.api.php	/^function hook_overlay_child_initialize() {$/;"	f
+hook_overlay_parent_initialize	overlay/overlay.api.php	/^function hook_overlay_parent_initialize() {$/;"	f
+hook_page_alter	system/system.api.php	/^function hook_page_alter(&$page) {$/;"	f
+hook_page_build	system/system.api.php	/^function hook_page_build(&$page) {$/;"	f
+hook_page_delivery_callback_alter	system/system.api.php	/^function hook_page_delivery_callback_alter(&$callback) {$/;"	f
+hook_path_delete	path/path.api.php	/^function hook_path_delete($path) {$/;"	f
+hook_path_insert	path/path.api.php	/^function hook_path_insert($path) {$/;"	f
+hook_path_update	path/path.api.php	/^function hook_path_update($path) {$/;"	f
+hook_permission	system/system.api.php	/^function hook_permission() {$/;"	f
+hook_prepare	node/node.api.php	/^function hook_prepare($node) {$/;"	f
+hook_preprocess	system/theme.api.php	/^function hook_preprocess(&$variables, $hook) {$/;"	f
+hook_preprocess_HOOK	system/theme.api.php	/^function hook_preprocess_HOOK(&$variables) {$/;"	f
+hook_process	system/theme.api.php	/^function hook_process(&$variables, $hook) {$/;"	f
+hook_process_HOOK	system/theme.api.php	/^function hook_process_HOOK(&$variables) {$/;"	f
+hook_query_TAG_alter	system/system.api.php	/^function hook_query_TAG_alter(QueryAlterableInterface $query) {$/;"	f
+hook_query_alter	system/system.api.php	/^function hook_query_alter(QueryAlterableInterface $query) {$/;"	f
+hook_ranking	node/node.api.php	/^function hook_ranking() {$/;"	f
+hook_rdf_mapping	rdf/rdf.api.php	/^function hook_rdf_mapping() {$/;"	f
+hook_rdf_namespaces	rdf/rdf.api.php	/^function hook_rdf_namespaces() {$/;"	f
+hook_registry_files_alter	system/system.api.php	/^function hook_registry_files_alter(&$files, $modules) {$/;"	f
+hook_requirements	system/system.api.php	/^function hook_requirements($phase) {$/;"	f
+hook_schema	system/system.api.php	/^function hook_schema() {$/;"	f
+hook_schema_alter	system/system.api.php	/^function hook_schema_alter(&$schema) {$/;"	f
+hook_search_access	search/search.api.php	/^function hook_search_access() {$/;"	f
+hook_search_admin	search/search.api.php	/^function hook_search_admin() {$/;"	f
+hook_search_execute	search/search.api.php	/^function hook_search_execute($keys = NULL, $conditions = NULL) {$/;"	f
+hook_search_info	search/search.api.php	/^function hook_search_info() {$/;"	f
+hook_search_page	search/search.api.php	/^function hook_search_page($results) {$/;"	f
+hook_search_preprocess	search/search.api.php	/^function hook_search_preprocess($text) {$/;"	f
+hook_search_reset	search/search.api.php	/^function hook_search_reset() {$/;"	f
+hook_search_status	search/search.api.php	/^function hook_search_status() {$/;"	f
+hook_shortcut_default_set	shortcut/shortcut.api.php	/^function hook_shortcut_default_set($account) {$/;"	f
+hook_simpletest_alter	simpletest/simpletest.api.php	/^function hook_simpletest_alter(&$groups) {$/;"	f
+hook_stream_wrappers	system/system.api.php	/^function hook_stream_wrappers() {$/;"	f
+hook_stream_wrappers_alter	system/system.api.php	/^function hook_stream_wrappers_alter(&$wrappers) {$/;"	f
+hook_system_info_alter	system/system.api.php	/^function hook_system_info_alter(&$info, $file, $type) {$/;"	f
+hook_system_theme_info	system/system.api.php	/^function hook_system_theme_info() {$/;"	f
+hook_system_themes_page_alter	system/system.api.php	/^function hook_system_themes_page_alter(&$theme_groups) {$/;"	f
+hook_taxonomy_term_delete	taxonomy/taxonomy.api.php	/^function hook_taxonomy_term_delete($term) {$/;"	f
+hook_taxonomy_term_insert	taxonomy/taxonomy.api.php	/^function hook_taxonomy_term_insert($term) {$/;"	f
+hook_taxonomy_term_load	taxonomy/taxonomy.api.php	/^function hook_taxonomy_term_load($terms) {$/;"	f
+hook_taxonomy_term_presave	taxonomy/taxonomy.api.php	/^function hook_taxonomy_term_presave($term) {$/;"	f
+hook_taxonomy_term_update	taxonomy/taxonomy.api.php	/^function hook_taxonomy_term_update($term) {$/;"	f
+hook_taxonomy_term_view	taxonomy/taxonomy.api.php	/^function hook_taxonomy_term_view($term, $view_mode, $langcode) {$/;"	f
+hook_taxonomy_term_view_alter	taxonomy/taxonomy.api.php	/^function hook_taxonomy_term_view_alter(&$build) {$/;"	f
+hook_taxonomy_vocabulary_delete	taxonomy/taxonomy.api.php	/^function hook_taxonomy_vocabulary_delete($vocabulary) {$/;"	f
+hook_taxonomy_vocabulary_insert	taxonomy/taxonomy.api.php	/^function hook_taxonomy_vocabulary_insert($vocabulary) {$/;"	f
+hook_taxonomy_vocabulary_load	taxonomy/taxonomy.api.php	/^function hook_taxonomy_vocabulary_load($vocabularies) {$/;"	f
+hook_taxonomy_vocabulary_presave	taxonomy/taxonomy.api.php	/^function hook_taxonomy_vocabulary_presave($vocabulary) {$/;"	f
+hook_taxonomy_vocabulary_update	taxonomy/taxonomy.api.php	/^function hook_taxonomy_vocabulary_update($vocabulary) {$/;"	f
+hook_test_finished	simpletest/simpletest.api.php	/^function hook_test_finished($results) {$/;"	f
+hook_test_group_finished	simpletest/simpletest.api.php	/^function hook_test_group_finished() {$/;"	f
+hook_test_group_started	simpletest/simpletest.api.php	/^function hook_test_group_started() {$/;"	f
+hook_theme	system/system.api.php	/^function hook_theme($existing, $type, $theme, $path) {$/;"	f
+hook_theme_registry_alter	system/system.api.php	/^function hook_theme_registry_alter(&$theme_registry) {$/;"	f
+hook_themes_disabled	system/theme.api.php	/^function hook_themes_disabled($theme_list) {$/;"	f
+hook_themes_enabled	system/theme.api.php	/^function hook_themes_enabled($theme_list) {$/;"	f
+hook_token_info	system/system.api.php	/^function hook_token_info() {$/;"	f
+hook_token_info_alter	system/system.api.php	/^function hook_token_info_alter(&$data) {$/;"	f
+hook_tokens	system/system.api.php	/^function hook_tokens($type, $tokens, array $data = array(), array $options = array()) {$/;"	f
+hook_tokens_alter	system/system.api.php	/^function hook_tokens_alter(array &$replacements, array $context) {$/;"	f
+hook_translated_menu_link_alter	system/system.api.php	/^function hook_translated_menu_link_alter(&$item, $map) {$/;"	f
+hook_trigger_info	trigger/trigger.api.php	/^function hook_trigger_info() {$/;"	f
+hook_trigger_info_alter	trigger/trigger.api.php	/^function hook_trigger_info_alter(&$triggers) {$/;"	f
+hook_uninstall	system/system.api.php	/^function hook_uninstall() {$/;"	f
+hook_update	node/node.api.php	/^function hook_update($node) {$/;"	f
+hook_update_N	system/system.api.php	/^  \/\/ function hook_update_N() {$/;"	f
+hook_update_N	system/system.api.php	/^function hook_update_N(&$sandbox) {$/;"	f
+hook_update_dependencies	system/system.api.php	/^function hook_update_dependencies() {$/;"	f
+hook_update_index	search/search.api.php	/^function hook_update_index() {$/;"	f
+hook_update_last_removed	system/system.api.php	/^function hook_update_last_removed() {$/;"	f
+hook_update_projects_alter	update/update.api.php	/^function hook_update_projects_alter(&$projects) {$/;"	f
+hook_update_status_alter	update/update.api.php	/^function hook_update_status_alter(&$projects) {$/;"	f
+hook_updater_info	system/system.api.php	/^function hook_updater_info() {$/;"	f
+hook_updater_info_alter	system/system.api.php	/^function hook_updater_info_alter(&$updaters) {$/;"	f
+hook_url_inbound_alter	system/system.api.php	/^function hook_url_inbound_alter(&$path, $original_path, $path_language) {$/;"	f
+hook_url_outbound_alter	system/system.api.php	/^function hook_url_outbound_alter(&$path, &$options, $original_path) {$/;"	f
+hook_user_cancel	user/user.api.php	/^function hook_user_cancel($edit, $account, $method) {$/;"	f
+hook_user_cancel_methods_alter	user/user.api.php	/^function hook_user_cancel_methods_alter(&$methods) {$/;"	f
+hook_user_categories	user/user.api.php	/^function hook_user_categories() {$/;"	f
+hook_user_delete	user/user.api.php	/^function hook_user_delete($account) {$/;"	f
+hook_user_insert	user/user.api.php	/^function hook_user_insert(&$edit, $account, $category) {$/;"	f
+hook_user_load	user/user.api.php	/^function hook_user_load($users) {$/;"	f
+hook_user_login	user/user.api.php	/^function hook_user_login(&$edit, $account) {$/;"	f
+hook_user_logout	user/user.api.php	/^function hook_user_logout($account) {$/;"	f
+hook_user_operations	user/user.api.php	/^function hook_user_operations() {$/;"	f
+hook_user_presave	user/user.api.php	/^function hook_user_presave(&$edit, $account, $category) {$/;"	f
+hook_user_role_delete	user/user.api.php	/^function hook_user_role_delete($role) {$/;"	f
+hook_user_role_insert	user/user.api.php	/^function hook_user_role_insert($role) {$/;"	f
+hook_user_role_presave	user/user.api.php	/^function hook_user_role_presave($role) {$/;"	f
+hook_user_role_update	user/user.api.php	/^function hook_user_role_update($role) {$/;"	f
+hook_user_update	user/user.api.php	/^function hook_user_update(&$edit, $account, $category) {$/;"	f
+hook_user_view	user/user.api.php	/^function hook_user_view($account, $view_mode, $langcode) {$/;"	f
+hook_user_view_alter	user/user.api.php	/^function hook_user_view_alter(&$build) {$/;"	f
+hook_username_alter	system/system.api.php	/^function hook_username_alter(&$name, $account) {$/;"	f
+hook_validate	node/node.api.php	/^function hook_validate($node, $form, &$form_state) {$/;"	f
+hook_verify_update_archive	update/update.api.php	/^function hook_verify_update_archive($project, $archive_file, $directory) {$/;"	f
+hook_view	node/node.api.php	/^function hook_view($node, $view_mode, $langcode = NULL) {$/;"	f
+hook_watchdog	system/system.api.php	/^function hook_watchdog(array $log_entry) {$/;"	f
+hook_xmlrpc	system/system.api.php	/^function hook_xmlrpc() {$/;"	f
+hook_xmlrpc_alter	system/system.api.php	/^function hook_xmlrpc_alter(&$methods) {$/;"	f
+hooks	system/theme.api.php	/^    $hooks = theme_get_registry();$/;"	v
+hooks	system/theme.api.php	/^ static $hooks;$/;"	v
+htmlDom	simpletest/drupal_web_test_case.php	/^      $htmlDom = new DOMDocument();$/;"	v
+http_response_code	system/system.api.php	/^  $http_response_code = 500;$/;"	v
+httpauth_credentials	simpletest/drupal_web_test_case.php	/^      $this->httpauth_credentials = $username . ':' . $password;$/;"	v
+httpauth_credentials	simpletest/drupal_web_test_case.php	/^  protected $httpauth_credentials = NULL;$/;"	v
+httpauth_method	simpletest/drupal_web_test_case.php	/^    $this->httpauth_method = variable_get('simpletest_httpauth_method', CURLAUTH_BASIC);$/;"	v
+httpauth_method	simpletest/drupal_web_test_case.php	/^  protected $httpauth_method = CURLAUTH_BASIC;$/;"	v
+id	field/field.api.php	/^    foreach ($entities as $id => $entity) {$/;"	v
+id	field/field.api.php	/^  foreach ($entities as $id => $entity) {$/;"	v
+id	simpletest/drupal_web_test_case.php	/^      $id = (string) $element['id'];$/;"	v
+id	system/system.api.php	/^  foreach ($formats as $id => $format) {$/;"	v
+id_key	field/field.api.php	/^    $id_key = 'entity_id';$/;"	v
+id_key	field/field.api.php	/^    $id_key = 'revision_id';$/;"	v
+in	system/system.api.php	/^ * the install_state_defaults() function in the installer for the list of$/;"	f
+in	system/system.api.php	/^ * theme set via a theme callback function in hook_menu(); the themes on those$/;"	f
+in	user/user.api.php	/^ * The function in step two should contain the following code in order to$/;"	f
+including	system/system.api.php	/^ * API function including the module's name.$/;"	f
+index	field/field.api.php	/^  $index = array_search('yy', $languages);$/;"	v
+index	simpletest/drupal_web_test_case.php	/^                $index = 0;$/;"	v
+index	simpletest/drupal_web_test_case.php	/^            $index = 0;$/;"	v
+index	simpletest/drupal_web_test_case.php	/^  protected function assertLink($label, $index = 0, $message = '', $group = 'Other') {$/;"	v
+index	simpletest/drupal_web_test_case.php	/^  protected function assertLinkByHref($href, $index = 0, $message = '', $group = 'Other') {$/;"	v
+index	simpletest/drupal_web_test_case.php	/^  protected function clickLink($label, $index = 0) {$/;"	v
+info	system/system.api.php	/^      $info = image_get_info($uri);$/;"	v
+info	system/system.api.php	/^  $info = entity_get_info($type);$/;"	v
+information	simpletest/drupal_web_test_case.php	/^    \/\/ Get the function information about the call to the assertion method.$/;"	f
+insertAssert	simpletest/drupal_web_test_case.php	/^  public static function insertAssert($test_id, $test_class, $status, $message = '', $group = 'Other', array $caller = array()) {$/;"	f
+install_profile_module_exists	simpletest/drupal_web_test_case.php	/^    $install_profile_module_exists = db_query("SELECT 1 FROM {system} WHERE type = 'module' AND name = :name", array($/;"	v
+instantiation	system/system.api.php	/^ * for class instantiation.$/;"	c
+instead	simpletest/drupal_web_test_case.php	/^    \/\/ Use the test mail class instead of the default mail handler class.$/;"	c
+is	filter/filter.api.php	/^ * This callback function is used to provide a settings form for filter$/;"	f
+is	simpletest/drupal_web_test_case.php	/^   * This class is skipped when looking for the source of an assertion.$/;"	c
+is	system/form.api.php	/^ *     $context['sandbox'] will be there the next time this function is called$/;"	f
+is	system/system.api.php	/^  \/\/ The next update function is mymodule_update_5200().$/;"	f
+is	system/system.api.php	/^ *     item. Note that this function is called even if the access checks fail,$/;"	f
+is	system/system.api.php	/^ * Note that since this function is called from a full bootstrap, all functions$/;"	f
+is	system/system.api.php	/^ * The task function is treated specially if it defines a form or requires$/;"	f
+is	system/system.api.php	/^ * the form. If no such function is found, Drupal calls this hook. Modules$/;"	f
+is	system/system.api.php	/^ * to path components. When integers are used and the callback function is$/;"	f
+is	system/system.api.php	/^ * update.php. The documentation block preceding this function is stripped of$/;"	f
+is	system/system.api.php	/^ * usually the case if the theme function is assigned to the render array's$/;"	f
+is_http_mock	simpletest/tests/http.php	/^$is_http_mock = !empty($_SERVER['HTTPS']);$/;"	v
+is_https_mock	simpletest/tests/https.php	/^$is_https_mock = empty($_SERVER['HTTPS']);$/;"	v
+isn	node/node.api.php	/^ * Also note that this function isn't called for node listings (e.g., RSS feeds,$/;"	f
+it	system/theme.api.php	/^ * if it is a function it must be specified via hook_theme(). By convention,$/;"	f
+item	field/field.api.php	/^        $item = array();$/;"	v
+items	field/field.api.php	/^      $items = (array) $entity->{$field_name}[$langcode];$/;"	v
+items	field/field.api.php	/^    $items = array();$/;"	v
+items	simpletest/drupal_web_test_case.php	/^              $items = $this->getAllOptions($field);$/;"	v
+itself	simpletest/drupal_web_test_case.php	/^   *   is the caller function itself.$/;"	f
+jQuery.fn.fieldUIPopulateOptions	field_ui/field_ui.js	/^jQuery.fn.fieldUIPopulateOptions = function (options, selected) {$/;"	f
+jkl	system/system.api.php	/^ *   function mymodule_abc_view($ghi = 0, $jkl = '') {$/;"	v
+key	block/block.api.php	/^  foreach ($blocks as $key => $block) {$/;"	v
+key	field/field.api.php	/^      $key = $order['specifier'];$/;"	v
+key	field/field.api.php	/^  foreach ($query->entityConditions as $key => $condition) {$/;"	v
+key	field/field.api.php	/^  foreach ($query->fieldConditions as $key => $condition) {$/;"	v
+key	field/field.api.php	/^  foreach ($query->fields as $key => $field) {$/;"	v
+key	simpletest/drupal_web_test_case.php	/^                $key = preg_replace('\/\\[\\]$\/', '', $name);$/;"	v
+key	simpletest/drupal_web_test_case.php	/^            $key = preg_replace('\/\\[\\]$\/', '', $name);$/;"	v
+key	simpletest/drupal_web_test_case.php	/^            foreach ($post as $key => $value) {$/;"	v
+key	simpletest/drupal_web_test_case.php	/^            foreach ($upload as $key => $file) {$/;"	v
+key	simpletest/drupal_web_test_case.php	/^      foreach ($ajax_settings['submit'] as $key => $value) {$/;"	v
+key	simpletest/drupal_web_test_case.php	/^      foreach ($drupal_settings['ajaxPageState']['css'] as $key => $value) {$/;"	v
+key	simpletest/drupal_web_test_case.php	/^      foreach ($drupal_settings['ajaxPageState']['js'] as $key => $value) {$/;"	v
+key	simpletest/drupal_web_test_case.php	/^      foreach ($filter as $key => $value) {$/;"	v
+key	simpletest/tests/http.php	/^foreach ($_SERVER as $key => $value) {$/;"	v
+key	simpletest/tests/https.php	/^foreach ($_SERVER as $key => $value) {$/;"	v
+key	system/system.api.php	/^    foreach ($record as $key => $value) {$/;"	v
+key	system/system.api.php	/^  foreach ($head_elements as $key => $element) {$/;"	v
+key	system/system.api.php	/^  foreach ($methods as $key => &$method) {$/;"	v
+key	system/system.api.php	/^  foreach ($theme_registry['forum_topic_navigation']['preprocess functions'] as $key => $value) {$/;"	v
+key	system/theme.api.php	/^    $key = $hooks[$hook]['render element'];$/;"	v
+key	system/theme.api.php	/^    $key = $keys[0];$/;"	v
+keys	system/theme.api.php	/^    $keys = array_keys($hooks[$hook]['variables']);$/;"	v
+langcode	field/field.api.php	/^    foreach ($entity->field_image as $langcode => $items) {$/;"	v
+langcode	node/node.api.php	/^function hook_view($node, $view_mode, $langcode = NULL) {$/;"	v
+language	simpletest/drupal_web_test_case.php	/^    $language = $this->originalLanguage;$/;"	v
+language	simpletest/drupal_web_test_case.php	/^    $language = (object) array('language' => 'en', 'name' => 'English', 'native' => 'English', 'direction' => 0, 'enabled' => 1, 'plurals' => 0, 'formula' => '', 'domain' => '', 'prefix' => '', 'weight' => 0, 'javascript' => '');$/;"	v
+language	simpletest/drupal_web_test_case.php	/^    $language = language_default();$/;"	v
+language_code	system/system.api.php	/^    $language_code = $options['language']->language;$/;"	v
+language_code	system/system.api.php	/^    $language_code = NULL;$/;"	v
+languages	field/field.api.php	/^      $languages = !empty($entity->$field_name) ? $field_languages : $all_languages;$/;"	v
+length	simpletest/drupal_web_test_case.php	/^      $length = strlen($base_path);$/;"	v
+limit	search/search.api.php	/^  $limit = (int)variable_get('search_cron_limit', 100);$/;"	v
+limit	system/form.api.php	/^  $limit = 5;$/;"	v
+lines	simpletest/drupal_web_test_case.php	/^      $lines = array(16, 256, 1024, 2048, 20480);$/;"	v
+lines	simpletest/drupal_web_test_case.php	/^      $lines = array(64, 1024);$/;"	v
+links	simpletest/drupal_web_test_case.php	/^    $links = $this->xpath('\/\/a[contains(@href, :href)]', array(':href' => $href));$/;"	v
+links	simpletest/drupal_web_test_case.php	/^    $links = $this->xpath('\/\/a[normalize-space(text())=:label]', array(':label' => $label));$/;"	v
+load_current	field/field.api.php	/^  $load_current = $age == FIELD_LOAD_CURRENT;$/;"	v
+loggedInUser	simpletest/drupal_web_test_case.php	/^      $this->loggedInUser = $account;$/;"	v
+loggedInUser	simpletest/drupal_web_test_case.php	/^      $this->loggedInUser = FALSE;$/;"	v
+loggedInUser	simpletest/drupal_web_test_case.php	/^    $this->loggedInUser = FALSE;$/;"	v
+loggedInUser	simpletest/drupal_web_test_case.php	/^  protected $loggedInUser = FALSE;$/;"	v
+looks	simpletest/drupal_web_test_case.php	/^   * function looks for the http-equiv attribute to be set to "Refresh"$/;"	f
+lost_keys	field/field.api.php	/^    $lost_keys = array_diff(array_keys($field['settings']['allowed_values']), array_keys($prior_field['settings']['allowed_values']));$/;"	v
+mail	simpletest/drupal_web_test_case.php	/^      $mail = $mails[$i];$/;"	v
+mail	simpletest/drupal_web_test_case.php	/^    $mail = end($mails);$/;"	v
+mails	simpletest/drupal_web_test_case.php	/^    $mails = $this->drupalGetMails();$/;"	v
+match	simpletest/drupal_web_test_case.php	/^    $match = is_array($code) ? in_array($curl_code, $code) : $curl_code == $code;$/;"	v
+max	simpletest/drupal_web_test_case.php	/^    $max = count($values) - 1;$/;"	v
+menu_name	system/system.api.php	/^  $menu_name = db_query("SELECT menu_name FROM {menu_example} WHERE mlid = :mlid", array(':mlid' => $link['mlid']))->fetchField();$/;"	v
+menu_site_status	system/system.api.php	/^    $menu_site_status = MENU_SITE_ONLINE;$/;"	v
+message	simpletest/drupal_web_test_case.php	/^        $message = t('Found field with name @name and value @value', array($/;"	v
+message	simpletest/drupal_web_test_case.php	/^        $message = t('Found field with name @name', array($/;"	v
+message	simpletest/drupal_web_test_case.php	/^      $message = !$not_exists ? t('"@text" found', array('@text' => $text)) : t('"@text" not found', array('@text' => $text));$/;"	v
+message	simpletest/drupal_web_test_case.php	/^      $message = '"' . $text . '"' . ($be_unique ? ' found only once' : ' found more than once');$/;"	v
+message	simpletest/drupal_web_test_case.php	/^      $message = '%callback rendered correctly.';$/;"	v
+message	simpletest/drupal_web_test_case.php	/^      $message = format_plural($emailCount, '1 e-mail was sent during this test.', '@count e-mails were sent during this test.');$/;"	v
+message	simpletest/drupal_web_test_case.php	/^      $message = t('Current URL is @url.', array($/;"	v
+message	simpletest/drupal_web_test_case.php	/^      $message = t('Page title @actual is equal to @expected.', array($/;"	v
+message	simpletest/drupal_web_test_case.php	/^      $message = t('Page title @actual is not equal to @unexpected.', array($/;"	v
+message	simpletest/drupal_web_test_case.php	/^      $message = t('Pattern "@pattern" found', array('@pattern' => $pattern));$/;"	v
+message	simpletest/drupal_web_test_case.php	/^      $message = t('Pattern "@pattern" not found', array('@pattern' => $pattern));$/;"	v
+message	simpletest/drupal_web_test_case.php	/^      $message = t('Raw "@raw" found', array('@raw' => $raw));$/;"	v
+message	simpletest/drupal_web_test_case.php	/^      $message = t('Raw "@raw" not found', array('@raw' => $raw));$/;"	v
+message	simpletest/drupal_web_test_case.php	/^    $message = '<hr \/>ID #' . $id . ' (<a href="' . $class . '-' . ($id - 1) . '.html">Previous<\/a> | <a href="' . $class . '-' . ($id + 1) . '.html">Next<\/a>)<hr \/>' . $message;$/;"	v
+message	simpletest/drupal_web_test_case.php	/^    $message = ($message ?  $message : t('Link containing href %href found.', array('%href' => $href)));$/;"	v
+message	simpletest/drupal_web_test_case.php	/^    $message = ($message ?  $message : t('Link with label %label found.', array('%label' => $label)));$/;"	v
+message	simpletest/drupal_web_test_case.php	/^    $message = ($message ?  $message : t('Link with label %label not found.', array('%label' => $label)));$/;"	v
+message	simpletest/drupal_web_test_case.php	/^    $message = ($message ?  $message : t('No link containing href %href found.', array('%href' => $href)));$/;"	v
+message	simpletest/drupal_web_test_case.php	/^    $message = format_string($message, array('%callback' => 'theme_' . $callback . '()'));$/;"	v
+message	simpletest/drupal_web_test_case.php	/^    $message = t('!method @url returned @status (!length).', $message_vars);$/;"	v
+message	simpletest/drupal_web_test_case.php	/^  protected function assert($status, $message = '', $group = 'Other', array $caller = NULL) {$/;"	v
+message	simpletest/drupal_web_test_case.php	/^  protected function assertEqual($first, $second, $message = '', $group = 'Other') {$/;"	v
+message	simpletest/drupal_web_test_case.php	/^  protected function assertFalse($value, $message = '', $group = 'Other') {$/;"	v
+message	simpletest/drupal_web_test_case.php	/^  protected function assertField($field, $message = '', $group = 'Other') {$/;"	v
+message	simpletest/drupal_web_test_case.php	/^  protected function assertFieldChecked($id, $message = '') {$/;"	v
+message	simpletest/drupal_web_test_case.php	/^  protected function assertIdentical($first, $second, $message = '', $group = 'Other') {$/;"	v
+message	simpletest/drupal_web_test_case.php	/^  protected function assertNoField($field, $message = '', $group = 'Other') {$/;"	v
+message	simpletest/drupal_web_test_case.php	/^  protected function assertNoFieldChecked($id, $message = '') {$/;"	v
+message	simpletest/drupal_web_test_case.php	/^  protected function assertNoLink($label, $message = '', $group = 'Other') {$/;"	v
+message	simpletest/drupal_web_test_case.php	/^  protected function assertNoLinkByHref($href, $message = '', $group = 'Other') {$/;"	v
+message	simpletest/drupal_web_test_case.php	/^  protected function assertNoOptionSelected($id, $option, $message = '') {$/;"	v
+message	simpletest/drupal_web_test_case.php	/^  protected function assertNoPattern($pattern, $message = '', $group = 'Other') {$/;"	v
+message	simpletest/drupal_web_test_case.php	/^  protected function assertNoRaw($raw, $message = '', $group = 'Other') {$/;"	v
+message	simpletest/drupal_web_test_case.php	/^  protected function assertNoResponse($code, $message = '') {$/;"	v
+message	simpletest/drupal_web_test_case.php	/^  protected function assertNoText($text, $message = '', $group = 'Other') {$/;"	v
+message	simpletest/drupal_web_test_case.php	/^  protected function assertNoTitle($title, $message = '', $group = 'Other') {$/;"	v
+message	simpletest/drupal_web_test_case.php	/^  protected function assertNoUniqueText($text, $message = '', $group = 'Other') {$/;"	v
+message	simpletest/drupal_web_test_case.php	/^  protected function assertNotEqual($first, $second, $message = '', $group = 'Other') {$/;"	v
+message	simpletest/drupal_web_test_case.php	/^  protected function assertNotIdentical($first, $second, $message = '', $group = 'Other') {$/;"	v
+message	simpletest/drupal_web_test_case.php	/^  protected function assertNotNull($value, $message = '', $group = 'Other') {$/;"	v
+message	simpletest/drupal_web_test_case.php	/^  protected function assertNull($value, $message = '', $group = 'Other') {$/;"	v
+message	simpletest/drupal_web_test_case.php	/^  protected function assertOptionSelected($id, $option, $message = '') {$/;"	v
+message	simpletest/drupal_web_test_case.php	/^  protected function assertPattern($pattern, $message = '', $group = 'Other') {$/;"	v
+message	simpletest/drupal_web_test_case.php	/^  protected function assertRaw($raw, $message = '', $group = 'Other') {$/;"	v
+message	simpletest/drupal_web_test_case.php	/^  protected function assertResponse($code, $message = '') {$/;"	v
+message	simpletest/drupal_web_test_case.php	/^  protected function assertText($text, $message = '', $group = 'Other') {$/;"	v
+message	simpletest/drupal_web_test_case.php	/^  protected function assertTextHelper($text, $message = '', $group, $not_exists) {$/;"	v
+message	simpletest/drupal_web_test_case.php	/^  protected function assertTitle($title, $message = '', $group = 'Other') {$/;"	v
+message	simpletest/drupal_web_test_case.php	/^  protected function assertTrue($value, $message = '', $group = 'Other') {$/;"	v
+message	simpletest/drupal_web_test_case.php	/^  protected function assertUniqueText($text, $message = '', $group = 'Other') {$/;"	v
+message	simpletest/drupal_web_test_case.php	/^  protected function assertUniqueTextHelper($text, $message = '', $group, $be_unique) {$/;"	v
+message	simpletest/drupal_web_test_case.php	/^  public static function insertAssert($test_id, $test_class, $status, $message = '', $group = 'Other', array $caller = array()) {$/;"	v
+message	system/form.api.php	/^    $message = t("!count items were processed.", array($/;"	v
+message	system/form.api.php	/^    $message = t('An error occurred while processing %error_operation with arguments: @arguments', array($/;"	v
+message_vars	simpletest/drupal_web_test_case.php	/^    $message_vars = array($/;"	v
+method	simpletest/drupal_web_test_case.php	/^              $method = isset($command['method']) ? $command['method'] : $ajax_settings['method'];$/;"	v
+method_info	simpletest/drupal_web_test_case.php	/^        $method_info = new ReflectionMethod($class, $method);$/;"	v
+methods	simpletest/drupal_web_test_case.php	/^  public function run(array $methods = array()) {$/;"	v
+module	simpletest/drupal_web_test_case.php	/^        $module = array('filename' => drupal_get_filename('module', $module));$/;"	v
+module_list	simpletest/drupal_web_test_case.php	/^    $module_list = module_list();$/;"	v
+modules	simpletest/drupal_web_test_case.php	/^      $modules = $modules[0];$/;"	v
+modules	simpletest/drupal_web_test_case.php	/^    $modules = func_get_args();$/;"	v
+my_menus	menu/menu.api.php	/^  $my_menus = variable_get('my_module_menus', array());$/;"	v
+mymodule_abc_edit	system/system.api.php	/^ * for the menu item, such as the page callback function mymodule_abc_edit()$/;"	f
+mymodule_abc_form	system/system.api.php	/^ *   function mymodule_abc_form($form, &$form_state) {$/;"	f
+mymodule_abc_load	system/system.api.php	/^ *   function mymodule_abc_load($abc_id) {$/;"	f
+mymodule_abc_view	system/system.api.php	/^ *   function mymodule_abc_view($ghi = 0, $jkl = '') {$/;"	f
+mymodule_menu	system/system.api.php	/^ *   function mymodule_menu() {$/;"	f
+myprofile_needs_batch_processing	system/system.api.php	/^  $myprofile_needs_batch_processing = variable_get('myprofile_needs_batch_processing', FALSE);$/;"	v
+name	field/field.api.php	/^    foreach ($prior_schema as $name => $table) {$/;"	v
+name	field/field.api.php	/^    foreach ($schema as $name => $table) {$/;"	v
+name	field/field.api.php	/^  foreach ($schema as $name => $table) {$/;"	v
+name	rdf/rdf.api.php	/^ *     - callback: A function name to invoke for 'datatype'.$/;"	f
+name	simpletest/drupal_web_test_case.php	/^          $name = ':status';$/;"	v
+name	simpletest/drupal_web_test_case.php	/^          $name = strtolower($name);$/;"	v
+name	simpletest/drupal_web_test_case.php	/^      $name = $matches[1];$/;"	v
+name	simpletest/drupal_web_test_case.php	/^      $name = $this->randomName();$/;"	v
+name	simpletest/drupal_web_test_case.php	/^      $name = (string) $element['name'];$/;"	v
+name	simpletest/drupal_web_test_case.php	/^      $name = strtolower($this->randomName(8));$/;"	v
+name	simpletest/drupal_web_test_case.php	/^      foreach ($edit as $name => $value) {$/;"	v
+name	simpletest/drupal_web_test_case.php	/^    $name = strtolower($name);$/;"	v
+name	simpletest/drupal_web_test_case.php	/^  protected function drupalCreateRole(array $permissions, $name = NULL) {$/;"	v
+name	simpletest/tests/themes/test_theme/template.php	/^ * The confusing function name here is due to this being an implementation of$/;"	f
+name	system/system.api.php	/^          $name = ($node->uid == 0) ? variable_get('anonymous', t('Anonymous')) : $node->name;$/;"	v
+name	system/system.api.php	/^    $name = t('User !uid', array('!uid' => $account->uid));$/;"	v
+name	system/system.api.php	/^    foreach ($tokens as $name => $original) {$/;"	v
+name	system/system.api.php	/^  foreach ($types as $name => $type) {$/;"	v
+name	system/system.api.php	/^ *     a default function name will be assumed. For example, if a module$/;"	f
+name	system/system.api.php	/^ *   - function: If specified, this will be the function name to invoke for$/;"	f
+name	system/system.api.php	/^ * retrieve the appropriate localization function name (t() or st()).$/;"	f
+named	system/system.api.php	/^    \/\/ function named myprofile_final_site_setup(), in which additional,$/;"	f
+named	system/system.api.php	/^    \/\/ implement this task, your profile would define a function named$/;"	f
+named	system/system.api.php	/^    \/\/ your profile would define a function named myprofile_data_import_form()$/;"	f
+names	system/system.api.php	/^ *   as described above. The array keys are used to build CSS class names for$/;"	c
+necessary	system/system.api.php	/^ * message, or calling a module function necessary for initial setup, etc.$/;"	f
+needs	system/system.api.php	/^ * a hook_update_N() is added to the module, this function needs to be updated$/;"	f
+newDom	simpletest/drupal_web_test_case.php	/^              $newDom = new DOMDocument();$/;"	v
+newNode	simpletest/drupal_web_test_case.php	/^              $newNode = @$dom->importNode($newDom->documentElement->firstChild->firstChild, TRUE);$/;"	v
+new_permutations	simpletest/drupal_web_test_case.php	/^      $new_permutations = array();$/;"	v
+new_table	field/field.api.php	/^  $new_table = _field_sql_storage_tablename($field);$/;"	v
+new_value	simpletest/drupal_web_test_case.php	/^            $new_value = $edit[$name];$/;"	v
+nid	statistics/statistics.php	/^    $nid = $_POST['nid'];$/;"	v
+node	search/search.api.php	/^    $node = node_load($item->sid);$/;"	v
+node	search/search.api.php	/^    $node = node_load($node->nid);$/;"	v
+node	simpletest/drupal_web_test_case.php	/^    $node = (object) $settings;$/;"	v
+node	system/form.api.php	/^    $node = node_load($row['nid'], NULL, TRUE);$/;"	v
+node	system/system.api.php	/^    $node = $context['data']['node'];$/;"	v
+node	system/system.api.php	/^    $node = $data['node'];$/;"	v
+node	system/system.api.php	/^    $node = $params['node'];$/;"	v
+node	system/system.api.php	/^  $node = node_load($queue_item_data);$/;"	v
+node_load	system/system.api.php	/^ *     that the loader function node_load() will be called with the second$/;"	f
+nodes	simpletest/drupal_web_test_case.php	/^    $nodes = node_load_multiple(array(), array('title' => $title), $reset);$/;"	v
+nodes	system/system.api.php	/^    $nodes = mymodule_get_user_nodes(array_keys($entities));$/;"	v
+nodes	user/user.api.php	/^      $nodes = db_select('node', 'n')$/;"	v
+normalized_mail	simpletest/drupal_web_test_case.php	/^      $normalized_mail = preg_replace('\/\\s+\/', ' ', $mail[$field_name]);$/;"	v
+normalized_string	simpletest/drupal_web_test_case.php	/^      $normalized_string = preg_replace('\/\\s+\/', ' ', $string);$/;"	v
+offset	simpletest/drupal_web_test_case.php	/^    $offset = $first_occurance + strlen($text);$/;"	v
+old_filename	system/system.api.php	/^    $old_filename = $file->filename;$/;"	v
+only	system/system.api.php	/^ *   function only supply a (default) value if no other value is specified,$/;"	f
+op	field/field.api.php	/^  if ($field['field_name'] == 'field_of_interest' && $op == 'edit') {$/;"	v
+op	system/system.api.php	/^      $op = 'view';$/;"	v
+operations	node/node.api.php	/^  $operations = array($/;"	v
+operations	user/user.api.php	/^  $operations = array($/;"	v
+option_value	simpletest/drupal_web_test_case.php	/^                  $option_value = (string) $option['value'];$/;"	v
+options	field/modules/options/options.api.php	/^  $options = array($/;"	v
+options	field/modules/options/options.api.php	/^  $options = array();$/;"	v
+options	search/search.api.php	/^  $options = drupal_map_assoc(range(0, 10));$/;"	v
+options	simpletest/drupal_web_test_case.php	/^            $options = $this->getAllOptions($element);$/;"	v
+options	simpletest/drupal_web_test_case.php	/^        $options = array_merge($options, $this->getAllOptions($group));$/;"	v
+options	simpletest/drupal_web_test_case.php	/^        $options = drupal_parse_url($curl_options[CURLOPT_URL]);$/;"	v
+options	simpletest/drupal_web_test_case.php	/^    $options = array();$/;"	v
+options	simpletest/drupal_web_test_case.php	/^  protected function assertUrl($path, array $options = array(), $message = '', $group = 'Other') {$/;"	v
+options	simpletest/drupal_web_test_case.php	/^  protected function drupalGet($path, array $options = array(), array $headers = array()) {$/;"	v
+options	simpletest/drupal_web_test_case.php	/^  protected function drupalGetAJAX($path, array $options = array(), array $headers = array()) {$/;"	v
+options	simpletest/drupal_web_test_case.php	/^  protected function drupalHead($path, array $options = array(), array $headers = array()) {$/;"	v
+options	simpletest/drupal_web_test_case.php	/^  protected function drupalPost($path, $edit, $submit, array $options = array(), array $headers = array(), $form_html_id = NULL, $extra_post = NULL) {$/;"	v
+options	system/system.api.php	/^  $options = $context['options'];$/;"	v
+or	system/system.api.php	/^      $or = db_or();$/;"	v
+or	system/system.api.php	/^ *     prior to the theme being rendered, to make sure that the function or$/;"	f
+or	system/system.api.php	/^ *   element is either a pair of method => function or an array with four$/;"	f
+or	system/theme.api.php	/^ * arguments the function or template will need, and provides$/;"	f
+or	system/theme.api.php	/^ * it registers. This implementation may be either a function or a template;$/;"	f
+original	simpletest/drupal_web_test_case.php	/^      $original = drupal_get_path('module', 'simpletest') . '\/files';$/;"	v
+originalCleanUrl	simpletest/drupal_web_test_case.php	/^    $this->originalCleanUrl = variable_get('clean_url', 0);$/;"	v
+originalFileDirectory	simpletest/drupal_web_test_case.php	/^    $this->originalFileDirectory = variable_get('file_public_path', conf_path() . '\/files');$/;"	v
+originalFileDirectory	simpletest/drupal_web_test_case.php	/^  protected $originalFileDirectory = NULL;$/;"	v
+originalLanguage	simpletest/drupal_web_test_case.php	/^    $this->originalLanguage = $language;$/;"	v
+originalLanguageDefault	simpletest/drupal_web_test_case.php	/^    $this->originalLanguageDefault = variable_get('language_default');$/;"	v
+originalModuleList	simpletest/drupal_web_test_case.php	/^      $this->originalModuleList = $module_list;$/;"	v
+originalProfile	simpletest/drupal_web_test_case.php	/^    $this->originalProfile = drupal_get_profile();$/;"	v
+originalShutdownCallbacks	simpletest/drupal_web_test_case.php	/^    $this->originalShutdownCallbacks = $callbacks;$/;"	v
+originalShutdownCallbacks	simpletest/drupal_web_test_case.php	/^  protected $originalShutdownCallbacks = array();$/;"	v
+originalUser	simpletest/drupal_web_test_case.php	/^    $this->originalUser = $user;$/;"	v
+originalUser	simpletest/drupal_web_test_case.php	/^  protected $originalUser = NULL;$/;"	v
+original_connection	simpletest/drupal_web_test_case.php	/^    $original_connection = Database::getConnection('default', 'simpletest_original_default');$/;"	v
+original_file_directory	simpletest/drupal_web_test_case.php	/^function simpletest_verbose($message, $original_file_directory = NULL, $test_class = NULL) {$/;"	v
+original_url	simpletest/drupal_web_test_case.php	/^        $original_url = $curl_options[CURLOPT_URL];$/;"	v
+out	simpletest/drupal_web_test_case.php	/^            $out = $new;$/;"	v
+out	simpletest/drupal_web_test_case.php	/^          $out = $this->curlExec(array(CURLOPT_URL => $action, CURLOPT_POST => TRUE, CURLOPT_POSTFIELDS => $post, CURLOPT_HTTPHEADER => $headers));$/;"	v
+out	simpletest/drupal_web_test_case.php	/^      $out = $new;$/;"	v
+out	simpletest/drupal_web_test_case.php	/^    $out = $this->curlExec(array(CURLOPT_HTTPGET => TRUE, CURLOPT_URL => url($path, $options), CURLOPT_NOBODY => FALSE, CURLOPT_HTTPHEADER => $headers));$/;"	v
+out	simpletest/drupal_web_test_case.php	/^    $out = $this->curlExec(array(CURLOPT_NOBODY => TRUE, CURLOPT_URL => url($path, $options), CURLOPT_HTTPHEADER => $headers));$/;"	v
+output	simpletest/drupal_web_test_case.php	/^    $output = theme($callback, $variables);$/;"	v
+parameter	simpletest/drupal_web_test_case.php	/^    foreach ($parameters as $parameter => $values) {$/;"	v
+parameters	simpletest/drupal_web_test_case.php	/^   * $parameters = array($/;"	v
+params	system/system.api.php	/^  $params = array();$/;"	v
+parse	simpletest/drupal_web_test_case.php	/^  protected function parse() {$/;"	f
+part	simpletest/drupal_web_test_case.php	/^          $part = '"' . $part . '"';$/;"	v
+parts	simpletest/drupal_web_test_case.php	/^        $parts = explode('"', $value);$/;"	v
+parts	simpletest/drupal_web_test_case.php	/^      $parts = array_map('trim', explode(';', $matches[2]));$/;"	v
+parts	simpletest/drupal_web_test_case.php	/^    $parts = parse_url($path);$/;"	v
+pass	simpletest/drupal_web_test_case.php	/^    $pass = $pass && $this->assertField('pass', t('Password field found.'), t('Logout'));$/;"	v
+pass	simpletest/drupal_web_test_case.php	/^    $pass = $this->assertField('name', t('Username field found.'), t('Logout'));$/;"	v
+pass	simpletest/drupal_web_test_case.php	/^    $pass = $this->assertLink(t('Log out'), 0, t('User %name successfully logged in.', array('%name' => $account->name)), t('User login'));$/;"	v
+pass	simpletest/drupal_web_test_case.php	/^  protected function pass($message = NULL, $group = 'Other') {$/;"	f
+pass_raw	simpletest/drupal_web_test_case.php	/^   *   $pass_raw = $account->pass_raw;$/;"	v
+password	simpletest/drupal_web_test_case.php	/^    $password = variable_get('simpletest_httpauth_password', NULL);$/;"	v
+path	simpletest/drupal_web_test_case.php	/^        $path = '\/' . $path;$/;"	v
+path	simpletest/drupal_web_test_case.php	/^        $path = substr($path, $length);$/;"	v
+path	simpletest/drupal_web_test_case.php	/^      $path = $base_url . $path;$/;"	v
+path	simpletest/drupal_web_test_case.php	/^      $path = (string) $path;$/;"	v
+path	system/system.api.php	/^      $path = $uri;$/;"	v
+path	system/system.api.php	/^      $path = $wrapper->getDirectoryPath() . '\/' . file_uri_target($uri);$/;"	v
+path	system/system.api.php	/^      $path = 'user\/me\/edit' . $matches[2];$/;"	v
+path	system/system.api.php	/^    $path = 'http:\/\/example.com\/rss.xml';$/;"	v
+path	system/system.api.php	/^    $path = 'user\/' . $user->uid . '\/edit' . $matches[1];$/;"	v
+path	system/system.api.php	/^    $path = str_replace('\\\\', '\/', $path);$/;"	v
+path	system/system.api.php	/^  if ($menu_site_status == MENU_SITE_OFFLINE && user_is_anonymous() && $path == 'my_module\/authentication') {$/;"	v
+pathinfo	system/system.api.php	/^    $pathinfo = pathinfo($path);$/;"	v
+paths	system/system.api.php	/^  $paths = array($/;"	v
+performs	system/system.api.php	/^ * - _update_6000_mymodule_save(): This function performs a save operation$/;"	f
+performs	system/system.api.php	/^ * - _update_7000_mymodule_save(): This function performs the same save$/;"	f
+permissions	simpletest/drupal_web_test_case.php	/^  protected function drupalCreateUser(array $permissions = array()) {$/;"	v
+permissions	simpletest/tests/upgrade/drupal-6.forum.database.php	/^  $permissions = $result->perm . ', create forum topics';$/;"	v
+permutations	simpletest/drupal_web_test_case.php	/^   * $permutations = DrupalTestCase::generatePermutations($parameters)$/;"	v
+permutations	simpletest/drupal_web_test_case.php	/^   * $permutations == array($/;"	v
+placeholder	simpletest/drupal_web_test_case.php	/^    foreach ($args as $placeholder => $value) {$/;"	v
+plainTextContent	simpletest/drupal_web_test_case.php	/^      $this->plainTextContent = filter_xss($this->drupalGetContent(), array());$/;"	v
+plainTextContent	simpletest/drupal_web_test_case.php	/^    $this->plainTextContent = FALSE;$/;"	v
+plainTextContent	simpletest/drupal_web_test_case.php	/^  protected $plainTextContent;$/;"	v
+post	simpletest/drupal_web_test_case.php	/^            $post = implode('&', $post) . $extra_post;$/;"	v
+post	simpletest/drupal_web_test_case.php	/^        $post = array();$/;"	v
+post_array	simpletest/drupal_web_test_case.php	/^          $post_array = $post;$/;"	v
+prefix_length	simpletest/drupal_web_test_case.php	/^    $prefix_length = strlen($connection_info['default']['prefix']['default']);$/;"	v
+preloadRegistry	simpletest/drupal_web_test_case.php	/^  protected function preloadRegistry() {$/;"	f
+prepareDatabasePrefix	simpletest/drupal_web_test_case.php	/^  protected function prepareDatabasePrefix() {$/;"	f
+prepareEnvironment	simpletest/drupal_web_test_case.php	/^  protected function prepareEnvironment() {$/;"	f
+prior_schema	field/field.api.php	/^    $prior_schema = _field_sql_storage_schema($prior_field);$/;"	v
+private_files_directory	simpletest/drupal_web_test_case.php	/^    $this->private_files_directory = $this->public_files_directory . '\/private';$/;"	v
+private_key	simpletest/drupal_web_test_case.php	/^    $private_key = drupal_get_private_key();$/;"	v
+profile	simpletest/drupal_web_test_case.php	/^  protected $profile = 'standard';$/;"	v
+profile_details	simpletest/drupal_web_test_case.php	/^    $profile_details = install_profile_info($this->profile, 'en');$/;"	v
+project	update/update.api.php	/^  foreach ($projects as $project => $project_info) {$/;"	v
+provided	system/system.api.php	/^  \/\/ Indicate that the mymodule_update_7000() function provided by this module$/;"	f
+provided	system/system.api.php	/^  \/\/ Indicate that the mymodule_update_7001() function provided by this module$/;"	f
+provided	system/system.api.php	/^  \/\/ must run after the another_module_update_7002() function provided by the$/;"	f
+provided	system/system.api.php	/^  \/\/ must run before the yet_another_module_update_7004() function provided by$/;"	f
+public_files_directory	simpletest/drupal_web_test_case.php	/^    $public_files_directory = $this->originalFileDirectory . '\/simpletest\/' . substr($this->databasePrefix, 10);$/;"	v
+public_files_directory	simpletest/drupal_web_test_case.php	/^    $this->public_files_directory = $this->originalFileDirectory . '\/simpletest\/' . substr($this->databasePrefix, 10);$/;"	v
+query	field/field.api.php	/^      $query = db_insert('forum_index')->fields(array('nid', 'title', 'tid', 'sticky', 'created', 'comment_count', 'last_comment_timestamp'));$/;"	v
+query	field/field.api.php	/^      $query = db_insert('taxonomy_index')->fields(array('nid', 'tid', 'sticky', 'created'));$/;"	v
+query	field/field.api.php	/^    $query = db_insert($table_name)->fields($columns);$/;"	v
+query	field/field.api.php	/^    $query = db_insert('forum_index')->fields(array('nid', 'title', 'tid', 'sticky', 'created', 'comment_count', 'last_comment_timestamp'));$/;"	v
+query	field/field.api.php	/^    $query = db_insert('taxonomy_index')->fields(array('nid', 'tid', 'sticky', 'created', ));$/;"	v
+query	field/field.api.php	/^    $query = db_select($table, 't')$/;"	v
+query	field/field.api.php	/^    $query = new EntityFieldQuery();$/;"	v
+query	search/search.api.php	/^  $query = db_select('search_index', 'i', array('target' => 'slave'))->extend('SearchQuery')->extend('PagerDefault');$/;"	v
+queue	system/system.api.php	/^  $queue = DrupalQueue::get('aggregator_feeds');$/;"	v
+randomName	simpletest/drupal_web_test_case.php	/^  public static function randomName($length = 8) {$/;"	f
+randomString	simpletest/drupal_web_test_case.php	/^  public static function randomString($length = 8) {$/;"	f
+real_name	field/field.api.php	/^    $real_name = _field_sql_storage_columnname($field['field_name'], $column_name);$/;"	v
+realm	system/system.api.php	/^      foreach (node_access_grants($op, $query->getMetaData('account')) as $realm => $gids) {$/;"	v
+receives	node/node.api.php	/^ * callback function receives one initial argument, which is an array of the$/;"	f
+record	field/field.api.php	/^        $record = array($/;"	v
+record	node/node.api.php	/^ * $record = array($/;"	v
+redirect	simpletest/drupal_web_test_case.php	/^  protected function curlExec($curl_options, $redirect = FALSE) {$/;"	v
+redirect_count	simpletest/drupal_web_test_case.php	/^      $this->redirect_count = 0;$/;"	v
+redirect_count	simpletest/drupal_web_test_case.php	/^  protected $redirect_count;$/;"	v
+refresh	simpletest/drupal_web_test_case.php	/^      $refresh = $this->xpath('\/\/meta[@http-equiv="Refresh"]');$/;"	v
+refreshVariables	simpletest/drupal_web_test_case.php	/^  protected function refreshVariables() {$/;"	f
+regex_found	simpletest/drupal_web_test_case.php	/^    $regex_found = preg_match("\/$regex\/", $mail[$field_name]);$/;"	v
+region	block/block-admin-display-form.tpl.php	/^    <?php foreach ($block_regions as $region => $title): ?>$/;"	v
+region	block/block-admin-display-form.tpl.php	/^  foreach ($block_regions as $region => $title) {$/;"	v
+registry	system/system.api.php	/^ *   class registry.$/;"	c
+registry	system/system.api.php	/^ * Alter the FileTransfer class registry.$/;"	c
+rekey	field/field.api.php	/^          $rekey = TRUE;$/;"	v
+rekey	field/field.api.php	/^      $rekey = FALSE;$/;"	v
+remaining	search/search.api.php	/^  $remaining = db_query("SELECT COUNT(*) FROM {node} n LEFT JOIN {search_dataset} d ON d.type = 'node' AND d.sid = n.nid WHERE n.status = 1 AND d.sid IS NULL OR d.reindex <> 0")->fetchField();$/;"	v
+replacements	system/system.api.php	/^  $replacements = array();$/;"	v
+request	simpletest/drupal_web_test_case.php	/^    $request = 0;$/;"	v
+requirements	system/system.api.php	/^  $requirements = array();$/;"	v
+reset	simpletest/drupal_web_test_case.php	/^  function drupalGetNodeByTitle($title, $reset = FALSE) {$/;"	v
+reset	simpletest/drupal_web_test_case.php	/^  protected function checkPermissions(array $permissions, $reset = FALSE) {$/;"	v
+resetAll	simpletest/drupal_web_test_case.php	/^  protected function resetAll() {$/;"	f
+respond	system/system.api.php	/^ *     registry in weight order and let each class respond to the task and$/;"	c
+restricted	node/node.api.php	/^  $restricted = variable_get('example_restricted_roles', array());$/;"	v
+result	block/block.api.php	/^  $result = db_query('SELECT module, delta, language FROM {my_table}');$/;"	v
+result	comment/comment.api.php	/^  $result = db_query('SELECT cid, foo FROM {mytable} WHERE cid IN (:cids)', array(':cids' => array_keys($comments)));$/;"	v
+result	node/node.api.php	/^    $result = db_query('SELECT nid, foo FROM {mytable} WHERE nid IN(:nids)', array(':nids' => array_keys($nodes)));$/;"	v
+result	node/node.api.php	/^  $result = db_query('SELECT nid, foo FROM {mytable} WHERE nid IN (:nids)', array(':nids' => array_keys($nodes)));$/;"	v
+result	search/search.api.php	/^  $result = db_query_range("SELECT n.nid FROM {node} n LEFT JOIN {search_dataset} d ON d.type = 'node' AND d.sid = n.nid WHERE d.sid IS NULL OR d.reindex <> 0 ORDER BY d.reindex ASC, n.nid ASC", 0, $limit);$/;"	v
+result	simpletest/drupal_web_test_case.php	/^      $result = $this->elements->xpath($xpath);$/;"	v
+result	simpletest/drupal_web_test_case.php	/^      $result = curl_setopt_array($this->curlHandle, $this->additionalCurlOptions + $curl_options);$/;"	v
+result	system/form.api.php	/^  $result = db_query_range("SELECT nid FROM {node} WHERE nid > %d ORDER BY nid ASC", $context['sandbox']['current_node'], 0, $limit);$/;"	v
+result	system/system.api.php	/^  $result = db_query('SELECT * FROM {aggregator_feed} WHERE checked + refresh < :time AND refresh <> :never', array($/;"	v
+result	system/system.api.php	/^  $result = db_query('SELECT * FROM {upload} u WHERE u.fid IN (:fids)', array(':fids' => array_keys($files)))->fetchAll(PDO::FETCH_ASSOC);$/;"	v
+result	taxonomy/taxonomy.api.php	/^  $result = db_select('mytable', 'm')$/;"	v
+result	user/user.api.php	/^  $result = db_query('SELECT uid, foo FROM {my_table} WHERE uid IN (:uids)', array(':uids' => array_keys($users)));$/;"	v
+results	field/field.api.php	/^    $results = $query->execute();$/;"	v
+results	search/search.api.php	/^  $results = array();$/;"	v
+results	simpletest/drupal_web_test_case.php	/^  public $results = array($/;"	v
+results	simpletest/tests/upgrade/drupal-6.forum.database.php	/^$results = db_select('permission', 'p')$/;"	v
+return	simpletest/drupal_web_test_case.php	/^    $return = drupal_json_decode($this->drupalPost(NULL, $edit, array('path' => $ajax_path, 'triggering_element' => $triggering_element), $options, $headers, $form_html_id, $extra_post));$/;"	v
+return	system/system.api.php	/^  $return = array($/;"	v
+returned_node	simpletest/drupal_web_test_case.php	/^    $returned_node = reset($nodes);$/;"	v
+returning	system/system.api.php	/^ *   - "access callback": A function returning TRUE if the user has access$/;"	f
+returning	system/system.api.php	/^ *   - "theme callback": (optional) A function returning the machine-readable$/;"	f
+returns	system/system.api.php	/^ * 'tracker\/%user_uid_optional'). This function returns the user ID of the$/;"	f
+revision_name	field/field.api.php	/^      $revision_name = _field_sql_storage_revision_tablename($field);$/;"	v
+revision_name	field/field.api.php	/^    $revision_name = _field_sql_storage_revision_tablename($field);$/;"	v
+revision_name	field/field.api.php	/^  $revision_name = _field_sql_storage_revision_tablename($field);$/;"	v
+revision_new_table	field/field.api.php	/^  $revision_new_table = _field_sql_storage_revision_tablename($field);$/;"	v
+revision_query	field/field.api.php	/^    $revision_query = db_insert($revision_name)->fields($columns);$/;"	v
+revision_table	field/field.api.php	/^  $revision_table = _field_sql_storage_revision_tablename($field);$/;"	v
+rid	simpletest/drupal_web_test_case.php	/^      $rid = $this->drupalCreateRole($permissions);$/;"	v
+rid	simpletest/drupal_web_test_case.php	/^    $rid = FALSE;$/;"	v
+role	simpletest/drupal_web_test_case.php	/^    $role = new stdClass();$/;"	v
+row	block/block-admin-display-form.tpl.php	/^    <?php $row = 0; ?>$/;"	v
+rows	field/field.api.php	/^      $rows = array();$/;"	v
+run	simpletest/drupal_web_test_case.php	/^  public function run(array $methods = array()) {$/;"	f
+sanitize	system/system.api.php	/^  $sanitize = !empty($options['sanitize']);$/;"	v
+saved_type	simpletest/drupal_web_test_case.php	/^    $saved_type = node_type_save($type);$/;"	v
+schema	field/field.api.php	/^    $schema = _field_sql_storage_schema($field);$/;"	v
+schema	field/field.api.php	/^  $schema = _field_sql_storage_schema($field);$/;"	v
+scheme	system/system.api.php	/^  $scheme = file_uri_scheme($uri);$/;"	v
+schemes	system/system.api.php	/^  $schemes = array('public');$/;"	v
+second_occurance	simpletest/drupal_web_test_case.php	/^    $second_occurance = strpos($this->plainTextContent, $text, $offset);$/;"	v
+select_query	field/field.api.php	/^      $select_query = db_select($tablename, $table_alias);$/;"	v
+session_id	simpletest/drupal_web_test_case.php	/^          $this->session_id = $value;$/;"	v
+session_id	simpletest/drupal_web_test_case.php	/^          $this->session_id = NULL;$/;"	v
+session_id	simpletest/drupal_web_test_case.php	/^      $this->session_id = NULL;$/;"	v
+session_id	simpletest/drupal_web_test_case.php	/^  protected $session_id = NULL;$/;"	v
+session_name	simpletest/drupal_web_test_case.php	/^      $this->session_name = session_name();$/;"	v
+session_name	simpletest/drupal_web_test_case.php	/^  protected $session_name = NULL;$/;"	v
+set	system/system.api.php	/^ * function MODULE_page_delivery_callback_alter(&$callback, $set = FALSE) {$/;"	v
+setUp	simpletest/drupal_web_test_case.php	/^   * Any required files must be explicitly included by the child class setUp()$/;"	c
+setUp	simpletest/drupal_web_test_case.php	/^  protected function setUp() {$/;"	f
+setting	node/node.api.php	/^    $setting = variable_get('comment_' . $info->old_type, COMMENT_NODE_OPEN);$/;"	v
+settings	field/field.api.php	/^  $settings = $display['settings'];$/;"	v
+settings	field_ui/field_ui.api.php	/^  $settings = $display['settings'];$/;"	v
+settings	field_ui/field_ui.api.php	/^  $settings = $field['settings'];$/;"	v
+settings	field_ui/field_ui.api.php	/^  $settings = $instance['settings'];$/;"	v
+settings	field_ui/field_ui.api.php	/^  $settings = $widget['settings'];$/;"	v
+settings	update/update.api.php	/^  $settings = variable_get('update_advanced_project_settings', array());$/;"	v
+setup	simpletest/drupal_web_test_case.php	/^    $this->setup = TRUE;$/;"	v
+setup	simpletest/drupal_web_test_case.php	/^  protected $setup = FALSE;$/;"	v
+setupDatabasePrefix	simpletest/drupal_web_test_case.php	/^    $this->setupDatabasePrefix = TRUE;$/;"	v
+setupDatabasePrefix	simpletest/drupal_web_test_case.php	/^  protected $setupDatabasePrefix = FALSE;$/;"	v
+setupEnvironment	simpletest/drupal_web_test_case.php	/^    $this->setupEnvironment = TRUE;$/;"	v
+setupEnvironment	simpletest/drupal_web_test_case.php	/^  protected $setupEnvironment = FALSE;$/;"	v
+severity_list	system/system.api.php	/^  $severity_list = array($/;"	v
+should	field/field.api.php	/^ *   have already been reported for the entity. The function should add its$/;"	f
+should	filter/filter.api.php	/^ * function should return the form elements for the settings; the filter$/;"	f
+should	system/system.api.php	/^ *     so any custom delivery callback function should take that into account.$/;"	f
+should	system/system.api.php	/^ * Instead, a simplified utility function should be used. If a utility version$/;"	f
+should	system/system.api.php	/^ * The utility function should not invoke any hooks, and should perform database$/;"	f
+should	system/system.api.php	/^ * This function should alter the URI, if it wants to rewrite the file URL.$/;"	f
+should	system/system.api.php	/^ * create a new function. The new utility function should be named$/;"	f
+should	system/system.api.php	/^ * new function should be created with a name based on the version of the schema$/;"	f
+simpletest_verbose	simpletest/drupal_web_test_case.php	/^function simpletest_verbose($message, $original_file_directory = NULL, $test_class = NULL) {$/;"	f
+single	simpletest/drupal_web_test_case.php	/^            $single = empty($element['multiple']);$/;"	v
+size	simpletest/drupal_web_test_case.php	/^  protected function drupalGetTestFiles($type, $size = NULL) {$/;"	v
+skipClasses	simpletest/drupal_web_test_case.php	/^  protected $skipClasses = array(__CLASS__ => TRUE);$/;"	v
+so	system/system.api.php	/^ *     function so it can be translated.$/;"	f
+so	system/system.api.php	/^ *     should be wrapped in the t() function so it can be translated.$/;"	f
+source_query	simpletest/drupal_web_test_case.php	/^      $source_query = $original_connection$/;"	v
+specifier	field/field.api.php	/^      $specifier = $order['specifier'];$/;"	v
+sql_field	field/field.api.php	/^      $sql_field = "$table_alias." . _field_sql_storage_columnname($field['field_name'], $specifier['column']);$/;"	v
+sql_field	field/field.api.php	/^    $sql_field = "$table_alias." . _field_sql_storage_columnname($field['field_name'], $condition['column']);$/;"	v
+state	system/system.api.php	/^  foreach ($theme_groups as $state => &$group) {$/;"	v
+stats	simpletest/drupal_web_test_case.php	/^          $stats = stat($file->uri);$/;"	v
+status	simpletest/drupal_web_test_case.php	/^        $status = FALSE;$/;"	v
+status	simpletest/drupal_web_test_case.php	/^      $status = $status ? 'pass' : 'fail';$/;"	v
+status	simpletest/drupal_web_test_case.php	/^    $status = TRUE;$/;"	v
+status	simpletest/drupal_web_test_case.php	/^    $status = curl_getinfo($this->curlHandle, CURLINFO_HTTP_CODE);$/;"	v
+stored_callback	system/system.api.php	/^ *     $stored_callback = $callback;$/;"	v
+stored_callback	system/system.api.php	/^ *   static $stored_callback;$/;"	v
+str	simpletest/drupal_web_test_case.php	/^    $str = '';$/;"	v
+str	simpletest/drupal_web_test_case.php	/^    $str = chr(mt_rand(97, 122));$/;"	v
+string_found	simpletest/drupal_web_test_case.php	/^      $string_found = (FALSE !== strpos($normalized_mail, $normalized_string));$/;"	v
+string_found	simpletest/drupal_web_test_case.php	/^    $string_found = FALSE;$/;"	v
+styles	image/image.api.php	/^  $styles = array();$/;"	v
+subject	system/system.api.php	/^  $subject = strtr($context['subject'], $variables);$/;"	v
+submit	simpletest/drupal_web_test_case.php	/^            if (isset($submit) && $submit == $value) {$/;"	v
+submit_matches	simpletest/drupal_web_test_case.php	/^              $submit_matches = TRUE;$/;"	v
+submit_matches	simpletest/drupal_web_test_case.php	/^          $submit_matches = TRUE;$/;"	v
+submit_matches	simpletest/drupal_web_test_case.php	/^        $submit_matches = $this->handleForm($post, $edit, $upload, $ajax ? NULL : $submit, $form);$/;"	v
+submit_matches	simpletest/drupal_web_test_case.php	/^    $submit_matches = FALSE;$/;"	v
+success	simpletest/drupal_web_test_case.php	/^      $success = module_enable($modules, TRUE);$/;"	v
+summary	field_ui/field_ui.api.php	/^    $summary = t('Length: @chars chars', array('@chars' => $settings['trim_length']));$/;"	v
+summary	field_ui/field_ui.api.php	/^  $summary = '';$/;"	v
+t	system/system.api.php	/^  $t = get_t();$/;"	v
+t	system/system.api.php	/^ * For localization you should for example use $t = get_t() to$/;"	v
+table	field/field.api.php	/^    $table = $load_current ? _field_sql_storage_tablename($field) : _field_sql_storage_revision_tablename($field);$/;"	v
+table	field/field.api.php	/^  $table = _field_sql_storage_tablename($field);$/;"	v
+tableDrag.onDrop	block/block.js	/^    tableDrag.onDrop = function () {$/;"	f
+tableDrag.onDrop	profile/profile.js	/^    tableDrag.onDrop = function () {$/;"	f
+tableDrag.onDrop	shortcut/shortcut.admin.js	/^      tableDrag.onDrop = function () {$/;"	f
+tableDrag.restripeTable	shortcut/shortcut.admin.js	/^      tableDrag.restripeTable = function () {$/;"	f
+tableDrag.row	block/block.js	/^    tableDrag.row.prototype.onSwap = function (swappedRow) {$/;"	c
+tableDrag.row	field_ui/field_ui.js	/^    tableDrag.row.prototype.onSwap = this.onSwap;$/;"	c
+tableDrag.row	profile/profile.js	/^    tableDrag.row.prototype.onSwap = function (swappedRow) {$/;"	c
+tableDrag.row	shortcut/shortcut.admin.js	/^      tableDrag.row.prototype.onSwap = function (swappedRow) {$/;"	c
+tableDrag.row	taxonomy/taxonomy.js	/^    tableDrag.row.prototype.onSwap = function (swappedRow) {$/;"	c
+tableDrag.row.onSwap	block/block.js	/^    tableDrag.row.prototype.onSwap = function (swappedRow) {$/;"	m
+tableDrag.row.onSwap	field_ui/field_ui.js	/^    tableDrag.row.prototype.onSwap = this.onSwap;$/;"	m
+tableDrag.row.onSwap	profile/profile.js	/^    tableDrag.row.prototype.onSwap = function (swappedRow) {$/;"	m
+tableDrag.row.onSwap	shortcut/shortcut.admin.js	/^      tableDrag.row.prototype.onSwap = function (swappedRow) {$/;"	m
+tableDrag.row.onSwap	taxonomy/taxonomy.js	/^    tableDrag.row.prototype.onSwap = function (swappedRow) {$/;"	m
+tableDrag.rowStatusChange	shortcut/shortcut.admin.js	/^      tableDrag.rowStatusChange = function (rowObject) {$/;"	f
+table_alias	field/field.api.php	/^      $table_alias = $table_aliases[$specifier['index']];$/;"	v
+table_alias	field/field.api.php	/^    $table_alias = $table_aliases[$key];$/;"	v
+table_alias	field/field.api.php	/^    $table_alias = $tablename . $key;$/;"	v
+table_aliases	field/field.api.php	/^  $table_aliases = array();$/;"	v
+table_name	field/field.api.php	/^    $table_name = _field_sql_storage_tablename($field);$/;"	v
+table_name	field/field.api.php	/^  $table_name = _field_sql_storage_tablename($field);$/;"	v
+tablename	field/field.api.php	/^    $tablename = $tablename_function($field);$/;"	v
+tablename_function	field/field.api.php	/^    $tablename_function = '_field_sql_storage_revision_tablename';$/;"	v
+tablename_function	field/field.api.php	/^    $tablename_function = '_field_sql_storage_tablename';$/;"	v
+tables	simpletest/drupal_web_test_case.php	/^    $tables = db_find_tables($connection_info['default']['prefix']['default'] . '%');$/;"	v
+tables	simpletest/drupal_web_test_case.php	/^    $tables = db_find_tables($this->databasePrefix . '%');$/;"	v
+takes	system/system.api.php	/^ *     This function takes $context as its only parameter, and is paired with$/;"	f
+takes	system/system.api.php	/^ * The action function takes two to four arguments, which come from the input$/;"	f
+target	simpletest/drupal_web_test_case.php	/^    foreach ($connection_info as $target => $value) {$/;"	v
+tasks	system/system.api.php	/^  $tasks = array($/;"	v
+tearDown	simpletest/drupal_web_test_case.php	/^  protected function tearDown() {$/;"	f
+temp	node/node.api.php	/^    $temp = $grants['example'];$/;"	v
+temp_files_directory	simpletest/drupal_web_test_case.php	/^    $this->temp_files_directory = $this->private_files_directory . '\/temp';$/;"	v
+term	field/field.api.php	/^        $term = $item['taxonomy_term'];$/;"	v
+terms	field/field.api.php	/^    $terms = taxonomy_term_load_multiple($tids);$/;"	v
+terms	field/modules/options/options.api.php	/^    $terms = taxonomy_get_tree($tree['vid'], $tree['parent']);$/;"	v
+testArithmetics	simpletest/lib/Drupal/simpletest/Tests/PSR0WebTest.php	/^  function testArithmetics() {$/;"	f
+testArithmetics	simpletest/src/Tests/PSR4WebTest.php	/^  function testArithmetics() {$/;"	f
+testArithmetics	simpletest/tests/psr_0_test/lib/Drupal/psr_0_test/Tests/ExampleTest.php	/^  function testArithmetics() {$/;"	f
+testArithmetics	simpletest/tests/psr_0_test/lib/Drupal/psr_0_test/Tests/Nested/NestedExampleTest.php	/^  function testArithmetics() {$/;"	f
+testArithmetics	simpletest/tests/psr_4_test/src/Tests/ExampleTest.php	/^  function testArithmetics() {$/;"	f
+testArithmetics	simpletest/tests/psr_4_test/src/Tests/Nested/NestedExampleTest.php	/^  function testArithmetics() {$/;"	f
+testId	simpletest/drupal_web_test_case.php	/^    $this->testId = $test_id;$/;"	v
+testId	simpletest/drupal_web_test_case.php	/^  protected $testId;$/;"	v
+test_connection	simpletest/drupal_web_test_case.php	/^    $test_connection = Database::getConnection();$/;"	v
+test_info	simpletest/drupal_web_test_case.php	/^    $test_info = &$GLOBALS['drupal_test_info'];$/;"	v
+test_theme_theme_test__suggestion	simpletest/tests/themes/test_theme/template.php	/^function test_theme_theme_test__suggestion($variables) {$/;"	f
+test_theme_theme_test_alter_alter	simpletest/tests/themes/test_theme/template.php	/^function test_theme_theme_test_alter_alter(&$data) {$/;"	f
+text	filter/filter.api.php	/^  $text = preg_replace('|<code>(.+?)<\/code>|se', "[codefilter_code]$1[\/codefilter_code]", $text);$/;"	v
+text	filter/filter.api.php	/^  $text = preg_replace('|\\[codefilter_code\\](.+?)\\[\/codefilter_code\\]|se', "<pre>$1<\/pre>", $text);$/;"	v
+text	node/node.api.php	/^  $text = '';$/;"	v
+text	search/search.api.php	/^    $text = '<h1>' . check_plain($node->title) . '<\/h1>' . $node->rendered;$/;"	v
+that	filter/filter.api.php	/^ *   - prepare callback: The name of a function that escapes the content before$/;"	f
+that	filter/filter.api.php	/^ *   - process callback: (required) The name the function that performs the$/;"	f
+that	filter/filter.api.php	/^ *   - settings callback: The name of a function that returns configuration form$/;"	f
+that	filter/filter.api.php	/^ *   - tips callback: The name of a function that returns end-user-facing filter$/;"	f
+that	image/image.api.php	/^ *   - "form callback": (optional) The name of a function that will return a$/;"	f
+that	image/image.api.php	/^ *   - "summary theme": (optional) The name of a theme function that will output$/;"	f
+that	simpletest/drupal_web_test_case.php	/^ * function that needs the database will throw exceptions. These include$/;"	f
+that	system/language.api.php	/^ *     - language: (required) Name of the callback function that determines the$/;"	f
+that	system/language.api.php	/^ *     - switcher: (optional) Name of the callback function that determines$/;"	f
+that	system/language.api.php	/^ *     - url_rewrite: (optional) Name of the callback function that provides URL$/;"	f
+that	system/system.api.php	/^    \/\/ ...call a function that prepares something for this request.$/;"	f
+that	system/system.api.php	/^ *   - 'class' A string specifying the PHP class that implements the$/;"	c
+that	system/system.api.php	/^ *   - controller class: The name of the class that is used to load the objects.$/;"	c
+that	system/system.api.php	/^ *   name of the function that generated the form.$/;"	f
+that	system/system.api.php	/^ * - an optional form definition function that defines a configuration form$/;"	f
+that	system/system.api.php	/^ * An Updater is a class that knows how to update various parts of the Drupal$/;"	c
+that	system/system.api.php	/^ * An archiver is a class that is able to package and unpackage one or more files$/;"	c
+that	system/system.api.php	/^ * Please be sure that anything added or modified in this function that can$/;"	f
+that	system/system.api.php	/^ * This hook can also be used as an API function that can be used to explicitly$/;"	f
+that	system/system.api.php	/^ * a form "factory" function that is used to build several similar forms. In$/;"	f
+tids	field/field.api.php	/^  $tids = array();$/;"	v
+time	field/field.api.php	/^    $time = date('H');$/;"	v
+timeLimit	simpletest/drupal_web_test_case.php	/^  protected $timeLimit = 500;$/;"	v
+title	system/system.api.php	/^      $title = field_view_field('node', $node, 'field_title', 'default', $language_code);$/;"	v
+to	contextual/contextual.api.php	/^  \/\/ Add another class to all contextual link lists to facilitate custom$/;"	c
+to	dashboard/dashboard.api.php	/^  \/\/ theme_mymodule_dashboard_region() as a theme wrapper function to control$/;"	f
+to	field/field.api.php	/^  \/\/ Add a css class to widget form elements for all fields of type mytype.$/;"	c
+to	image/image.api.php	/^ *   - "dimensions callback": (optional) The function to call to transform$/;"	f
+to	image/image.api.php	/^ *   - "effect callback": The function to call to perform this image effect.$/;"	f
+to	node/node.api.php	/^ *   - callback: (required) The function to call for the operation.$/;"	f
+to	simpletest/drupal_web_test_case.php	/^   *   (optional) A list of method names in the test case class to run; e.g.,$/;"	c
+to	simpletest/drupal_web_test_case.php	/^   *   The name of the theme function to invoke; e.g. 'links' for theme_links().$/;"	f
+to	simpletest/tests/upgrade/drupal-6.bare.database.php	/^  'info' => 'a:10:{s:4:"name";s:6:"Locale";s:11:"description";s:119:"Adds language handling functionality and enables the translation of the user interface to languages other than English.";s:7:"package";s:15:"Core - optional";s:7:"version";s:4:"6.17";s:4:"core";s:3:"6.x";s:7:"project";s:6:"drupal";s:9:"datestamp";s:10:"1275505216";s:12:"dependencies";a:0:{}s:10:"dependents";a:0:{}s:3:"php";s:5:"4.3.5";}',$/;"	i
+to	simpletest/tests/upgrade/drupal-6.filled.database.php	/^  'info' => 'a:8:{s:4:"name";s:6:"Locale";s:11:"description";s:119:"Adds language handling functionality and enables the translation of the user interface to languages other than English.";s:7:"package";s:15:"Core - optional";s:7:"version";s:8:"6.20-dev";s:4:"core";s:3:"6.x";s:12:"dependencies";a:0:{}s:10:"dependents";a:0:{}s:3:"php";s:5:"4.3.5";}',$/;"	i
+to	simpletest/tests/upgrade/drupal-6.filled.database.php	/^  'info' => 'a:8:{s:4:"name";s:8:"Views UI";s:11:"description";s:93:"Administrative interface to views. Without this module, you cannot create or edit your views.";s:7:"package";s:5:"Views";s:4:"core";s:3:"6.x";s:12:"dependencies";a:1:{i:0;s:5:"views";}s:10:"dependents";a:0:{}s:7:"version";N;s:3:"php";s:5:"4.3.5";}',$/;"	i
+to	system/system.api.php	/^    \/\/ last task defined by your profile, you should also use this function to$/;"	f
+to	system/system.api.php	/^  $to = 'someone@example.com';$/;"	v
+to	system/system.api.php	/^ *     could be used, for example, to allow the same function to be called by$/;"	f
+to	system/system.api.php	/^ *   - "delivery callback": The function to call to package the result of the$/;"	f
+to	system/system.api.php	/^ *   - "page callback": The function to call to display a web page when the user$/;"	f
+to	system/system.api.php	/^ *   - callback: The name of the form builder function to invoke. This will be$/;"	f
+to	system/system.api.php	/^ *   - wrapper_callback: (optional) The name of a form builder function to$/;"	f
+to	system/system.api.php	/^ * - #theme: The theme function to use to render.$/;"	f
+to	system/system.api.php	/^ * callback function to set a custom page title. For some tasks, however, you$/;"	f
+to	system/system.api.php	/^ * free to extend the FileTransfer base class to add other connection types,$/;"	c
+to	system/system.api.php	/^ * function to build certain forms in your module; this is often used to define$/;"	f
+to	system/system.api.php	/^ * type can be used in the format_date() function to format a date using the$/;"	f
+to	system/system.api.php	/^ * with the same name as the form ID, and uses that function to build the form.$/;"	f
+to	system/theme.api.php	/^ * Functions and templates for the user interface to be implemented by themes.$/;"	i
+to	user/user.api.php	/^ *   - "access callback": Name of the access callback function to use to$/;"	f
+to	user/user.api.php	/^ *   - "callback": Required. The function to call for the operation.$/;"	f
+total	search/search.api.php	/^  $total = db_query('SELECT COUNT(*) FROM {node} WHERE status = 1')->fetchField();$/;"	v
+type	node/node.api.php	/^  $type = is_string($node) ? $node : $node->type;$/;"	v
+type	node/node.api.php	/^  $type = node_type_get_type($node);$/;"	v
+type	simpletest/drupal_web_test_case.php	/^      $type = isset($element['type']) ? (string) $element['type'] : $element->getName();$/;"	v
+type	simpletest/drupal_web_test_case.php	/^    $type = $forced + $settings + $defaults;$/;"	v
+type	simpletest/drupal_web_test_case.php	/^    $type = (object) $type;$/;"	v
+type	system/system.api.php	/^  $type = array($/;"	v
+type	system/system.api.php	/^  foreach (node_type_get_names() as $type => $name) {$/;"	v
+uid	system/system.api.php	/^    foreach ($entities as $uid => $entity) {$/;"	v
+upload	simpletest/drupal_web_test_case.php	/^        $upload = array();$/;"	v
+uri	system/system.api.php	/^      $uri = $cdn1 . '\/' . $path;$/;"	v
+uri	system/system.api.php	/^      $uri = $cdn2 . '\/' . $path;$/;"	v
+uri	system/system.api.php	/^    $uri = FALSE;$/;"	v
+url	simpletest/drupal_web_test_case.php	/^      $url = file_create_url($this->originalFileDirectory . '\/simpletest\/verbose\/' . $class_safe . '-' . $id . '.html');$/;"	v
+url	simpletest/drupal_web_test_case.php	/^    $this->url = $url;$/;"	v
+url	simpletest/drupal_web_test_case.php	/^    $url = empty($curl_options[CURLOPT_URL]) ? curl_getinfo($this->curlHandle, CURLINFO_EFFECTIVE_URL) : $curl_options[CURLOPT_URL];$/;"	v
+url	simpletest/drupal_web_test_case.php	/^  protected $url;$/;"	v
+url	simpletest/drupal_web_test_case.php	/^  protected function drupalSetContent($content, $url = 'internal:') {$/;"	v
+url_before	simpletest/drupal_web_test_case.php	/^    $url_before = $this->getUrl();$/;"	v
+url_options	system/system.api.php	/^  $url_options = array('absolute' => TRUE);$/;"	v
+url_target	simpletest/drupal_web_test_case.php	/^      $url_target = $this->getAbsoluteUrl($urls[$index]['href']);$/;"	v
+urls	simpletest/drupal_web_test_case.php	/^    $urls = $this->xpath('\/\/a[normalize-space(text())=:label]', array(':label' => $label));$/;"	v
+user	simpletest/drupal_web_test_case.php	/^    $user = $this->originalUser;$/;"	v
+user	simpletest/drupal_web_test_case.php	/^    $user = user_load(1);$/;"	v
+user_category_load	system/system.api.php	/^ *     function user_category_load() will be called with 32 as its first$/;"	f
+user_category_load	system/system.api.php	/^ *     of them can use the same load function user_category_load(), by setting$/;"	f
+username	simpletest/drupal_web_test_case.php	/^    $username = variable_get('simpletest_httpauth_username', NULL);$/;"	v
+users	system/system.api.php	/^  $users = db_select('users', 'u')$/;"	v
+uses	system/system.api.php	/^ * If a page callback function uses an argument list array, and its path is$/;"	f
+using	field/field.api.php	/^ * Other modules may alter the form element provided by this function using$/;"	f
+valid	simpletest/drupal_web_test_case.php	/^        $valid = FALSE;$/;"	v
+valid	simpletest/drupal_web_test_case.php	/^    $valid = TRUE;$/;"	v
+validate	system/system.api.php	/^  $validate = file_validate_extensions($file, 'jpg');$/;"	v
+value	simpletest/drupal_web_test_case.php	/^          $value = $header;$/;"	v
+value	simpletest/drupal_web_test_case.php	/^        $value = count($parts) > 1 ? 'concat(' . implode(', \\'"\\', ', $parts) . ')' : $parts[0];$/;"	v
+value	simpletest/drupal_web_test_case.php	/^      $value = array_shift($parts);$/;"	v
+value	simpletest/drupal_web_test_case.php	/^      $value = isset($element['value']) ? (string) $element['value'] : '';$/;"	v
+value	simpletest/drupal_web_test_case.php	/^  protected function assertFieldById($id, $value = '', $message = '') {$/;"	v
+value	simpletest/drupal_web_test_case.php	/^  protected function assertFieldByName($name, $value = NULL, $message = NULL) {$/;"	v
+value	simpletest/drupal_web_test_case.php	/^  protected function assertFieldByXPath($xpath, $value = NULL, $message = '', $group = 'Other') {$/;"	v
+value	simpletest/drupal_web_test_case.php	/^  protected function assertMail($name, $value = '', $message = '') {$/;"	v
+value	simpletest/drupal_web_test_case.php	/^  protected function assertNoFieldById($id, $value = '', $message = '') {$/;"	v
+value	simpletest/drupal_web_test_case.php	/^  protected function assertNoFieldByName($name, $value = '', $message = '') {$/;"	v
+value	simpletest/drupal_web_test_case.php	/^  protected function assertNoFieldByXPath($xpath, $value = NULL, $message = '', $group = 'Other') {$/;"	v
+values	field/field.api.php	/^  $values = drupal_array_get_nested_value($form_state['values'], $form['#parents']);$/;"	v
+values	simpletest/drupal_web_test_case.php	/^    $values = array_merge(range(65, 90), range(97, 122), range(48, 57));$/;"	v
+var	search/search.api.php	/^  foreach (module_invoke_all('ranking') as $var => $values) {$/;"	v
+variable_name	system/theme.api.php	/^    foreach ($variables['rdf_template_variable_attributes_array'] as $variable_name => $attributes) {$/;"	v
+variables	simpletest/drupal_web_test_case.php	/^  protected function assertThemeOutput($callback, array $variables = array(), $expected, $message = '', $group = 'Other') {$/;"	v
+variables	system/system.api.php	/^  $variables = array($/;"	v
+verbose	simpletest/drupal_web_test_case.php	/^    $verbose = 'AJAX POST request to: ' . $path;$/;"	v
+verbose	simpletest/drupal_web_test_case.php	/^    $verbose = variable_get('simpletest_verbose', TRUE);$/;"	v
+verbose	simpletest/drupal_web_test_case.php	/^  protected function verbose($message) {$/;"	f
+verboseEmail	simpletest/drupal_web_test_case.php	/^  protected function verboseEmail($count = 1) {$/;"	f
+vid	field/field.api.php	/^    $vid = $id;$/;"	v
+view_mode	node/node.tpl.php	/^ * - $teaser: Flag for the teaser state (shortcut for $view_mode == 'teaser').$/;"	v
+view_mode	system/system.api.php	/^    $view_mode = 'my_custom_view_mode';$/;"	v
+view_mode	system/system.api.php	/^  if ($context['entity_type'] == 'node' && $view_mode == 'teaser') {$/;"	v
+vocabulary	system/system.api.php	/^    $vocabulary = taxonomy_vocabulary_load($entity->vid);$/;"	v
+weights	field/field.api.php	/^  $weights = array();$/;"	v
+when	system/system.api.php	/^ *     force the installer to call a different function when the task is run$/;"	f
+which	system/system.api.php	/^ *   - class: The name of the PHP class which implements this updater.$/;"	c
+which	system/system.api.php	/^ * - a function which performs the action (which by convention is named$/;"	f
+which	system/system.api.php	/^ * Each task you define here corresponds to a callback function which you must$/;"	f
+whose	simpletest/drupal_web_test_case.php	/^   *   By default, the assert comes from a function whose name starts with$/;"	f
+whose	system/system.api.php	/^ *     (rather than the function whose name is given by the array key). This$/;"	f
+widget	field_ui/field_ui.api.php	/^  $widget = $instance['widget'];$/;"	v
+will	simpletest/drupal_web_test_case.php	/^   * If the simpletest_httpauth_credentials variable is set, this function will$/;"	f
+will	system/system.api.php	/^ *     - batch: This indicates that the task function will return a batch API$/;"	f
+will	system/system.api.php	/^ *     - form: This indicates that the task function will return a standard$/;"	f
+will	system/system.api.php	/^ *   calling function will be given default values and passed to the template$/;"	f
+will	system/system.api.php	/^ *   page request. The value returned from this function will only have an$/;"	f
+will	system/system.api.php	/^ *   this function will get the query as its single argument and its result$/;"	f
+will	system/system.api.php	/^ * The _to_arg() function will get called with three arguments:$/;"	f
+will	system/system.api.php	/^ * When path 'abc\/def' is requested, the page callback function will get 'def'$/;"	f
+will	system/system.api.php	/^ * path is requested, your load function will receive as its first argument the$/;"	f
+will	system/system.api.php	/^ * your specific form callback function will always receive $form and$/;"	f
+with	node/node.api.php	/^ * function with the operation, which is called when the form is submitted. The$/;"	f
+with	system/system.api.php	/^ *     configuration. If TRUE, then your module must define a form function with$/;"	f
+with	system/system.api.php	/^ *     the same name as the action function with '_form' appended (e.g., the$/;"	f
+with	system/system.api.php	/^ *   (which has the name of the action function with '_form' appended to it.)$/;"	f
+with	system/system.api.php	/^ * function with the same name as the form ID, and use that function to build$/;"	f
+with	user/user.api.php	/^ * dropdown found at admin\/people, by associating a callback function with$/;"	f
+within	system/system.api.php	/^ *   number of an update function within that module. In the event that your$/;"	f
+within	system/system.api.php	/^ * this reason, caution is needed when using any API function within an update$/;"	f
+worked	simpletest/drupal_web_test_case.php	/^   * that the function worked properly.$/;"	f
+would	block/block.tpl.php	/^ *     that case the class would be 'block-user'.$/;"	c
+would	node/node.api.php	/^  \/\/ Returning nothing from this function would have the same effect.$/;"	f
+wrapper	system/system.api.php	/^      $wrapper = file_stream_wrapper_get_instance_by_scheme($scheme);$/;"	v
+wrapperNode	simpletest/drupal_web_test_case.php	/^              $wrapperNode = $xpath->query('\/\/' . $command['selector'])->item(0);$/;"	v
+wrapperNode	simpletest/drupal_web_test_case.php	/^              $wrapperNode = $xpath->query('\/\/*[@id="' . $ajax_settings['wrapper'] . '"]')->item(0);$/;"	v
+wrapperNode	simpletest/drupal_web_test_case.php	/^            $wrapperNode = NULL;$/;"	v
+writable	simpletest/drupal_web_test_case.php	/^    $writable = file_prepare_directory($directory, FILE_CREATE_DIRECTORY);$/;"	v
+xmlrpc_date	system/system.api.php	/^ *          which is described in the function xmlrpc_date$/;"	f
+xpath	simpletest/drupal_web_test_case.php	/^        $xpath = '\/\/*[@name="' . $triggering_element . '"]';$/;"	v
+xpath	simpletest/drupal_web_test_case.php	/^        $xpath = '\/\/*[@name="' . key($triggering_element) . '" and @value="' . current($triggering_element) . '"]';$/;"	v
+xpath	simpletest/drupal_web_test_case.php	/^        $xpath = '\/\/form[@id="' . $form_html_id . '"]' . $xpath;$/;"	v
+xpath	simpletest/drupal_web_test_case.php	/^      $xpath = "\/\/form";$/;"	v
+xpath	simpletest/drupal_web_test_case.php	/^      $xpath = $this->buildXPathQuery($xpath, $arguments);$/;"	v
+xpath	simpletest/drupal_web_test_case.php	/^      $xpath = new DOMXPath($dom);$/;"	v
+xpath	simpletest/drupal_web_test_case.php	/^      $xpath = preg_replace('\/' . preg_quote($placeholder) . '\\b\/', $value, $xpath);$/;"	v
+xpath	simpletest/drupal_web_test_case.php	/^    $xpath = '\/\/textarea[@' . $attribute . '=:value]|\/\/input[@' . $attribute . '=:value]|\/\/select[@' . $attribute . '=:value]';$/;"	v
+xpath	simpletest/drupal_web_test_case.php	/^  protected function xpath($xpath, array $arguments = array()) {$/;"	f
+you	system/system.api.php	/^ * of the API function you require does not already exist, then you should$/;"	f

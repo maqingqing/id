@@ -1,0 +1,6 @@
+name = Check User Information
+description = Provides a really neat widget for your site's sidebar.
+core = 7.x
+package = OPENTHOS
+files[] = checkout_userinfo.module
+configure = admin/config/checkout_userinfo
