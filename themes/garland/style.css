@@ -5,7 +5,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: #edf5fa;
+  background: #f2f0f3;
   font: 76%/170% Verdana, sans-serif;
   color: #494949;
 }
@@ -396,7 +396,7 @@ span.form-required {
 }
 
 #wrapper {
-  background: #edf5fa url(images/body.png) repeat-x 50% 0;
+  background: #f2f0f3 url(images/body.png) repeat-x 50% 0;
 }
 
 /* Set container widths when we are using the "fixed width" option. */
@@ -438,6 +438,7 @@ body.fluid-width #wrapper #container {
 }
 
 #branding span {
+  font-size: 0;
   font-weight: bold;
 }
 
@@ -445,6 +446,7 @@ body.fluid-width #wrapper #container {
   padding-top: 14px;
   padding-right: 20px; /* LTR */
   float: left; /* LTR */
+  width: 50%;
 }
 
 /* With 3 columns, require a minimum width of 1000px to ensure there is enough horizontal space. */
@@ -528,19 +530,20 @@ body.two-sidebars #squeeze {
 
 /* Now we add the backgrounds for the main content shading */
 #wrapper #container #center #squeeze {
-  background: #fff url(images/bg-content.png) repeat-x 50% 0;
+  /*background: #fff url(images/bg-content.png) repeat-x 50% 0;*/
+  background:rgba(255,255,255,0.6);
   position: relative;
 }
 
 #wrapper #container #center .right-corner {
-  background: transparent url(images/bg-content-right.png) no-repeat 100% 0;
+  /*background: transparent url(images/bg-content-right.png) no-repeat 100% 0;*/
   position: relative;
   left: 10px;
 }
 
 #wrapper #container #center .right-corner .left-corner {
   padding: 60px 25px 5em 35px;
-  background: transparent url(images/bg-content-left.png) no-repeat 0 0;
+  /*background: transparent url(images/bg-content-left.png) no-repeat 0 0;*/
   margin-left: -10px;
   position: relative;
   left: -10px;
